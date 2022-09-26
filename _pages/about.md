@@ -18,4 +18,4 @@ I’m a senior undergraduate at IIT Gandhinagar. I’m into developing games, VF
 
 Few of them are available  on my [Github](https://github.com/aniketrajnish). The design & development documents of the projects and games that I've mentioned below are can be found [here](https://aniketrajnish.github.io/docs).
 
-<iframe style="width:100%" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="RICKROLLED" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="500" height="281" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="RICKROLLED" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
