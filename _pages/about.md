@@ -20,6 +20,6 @@ social: true  # includes social icons at the bottom of the page
 
 I’m a senior undergraduate at IIT Gandhinagar. I’m into developing games, VFX, editing videos, computer graphics, and simulations. I’ve mentioned some of my work below. If you want the source code/ build of any of these you can contact me!
 
-**Few of them are available  on my [Github](https://github.com/aniketrajnish). The design & development documents of the projects and games that I've mentioned below are can be found [here](https://aniketrajnish.github.io/docs).**
+Few of them are available  on my [Github](https://github.com/aniketrajnish). The design & development documents of the projects and games that I've mentioned below are can be found [here](https://aniketrajnish.github.io/docs).
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
