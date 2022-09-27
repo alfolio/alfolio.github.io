@@ -3,7 +3,7 @@ layout: page
 title: Shoot The Numbers
 description: Dual wield uzis and smash through the enemies while shooting the correct numbers!
 img: assets/img/basmr.png
-importance: 4
+importance: 8
 category: games (professional)
 ---
 
