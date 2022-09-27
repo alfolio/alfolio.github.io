@@ -2,7 +2,7 @@
 layout: page
 title: Toilet Spinner
 description: You are a spiny toilet and your goal is to fill tubs with water!
-img: assets/img/fert.png
+img: assets/img/toilet.png
 importance: 6
 category: games (personal)
 ---
