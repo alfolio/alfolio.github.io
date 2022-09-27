@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Soul Shard
+description: Soul Shard is a cooperative puzzle platformer that draws inspiration from EA’s ‘It Takes Two’.
+img: assets/img/SoulShard.png
 importance: 1
 category: work
 ---
