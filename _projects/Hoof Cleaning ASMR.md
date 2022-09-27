@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Body Crack ASMR
-description: Crack & adjust the patient's body and relieve their pain!
+title: Hoof Cleaning ASMR
+description: Satisfying Horse Hoof Restoration!
 img: assets/img/hoof.png
 importance: 3
 category: games (professional)
