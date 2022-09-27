@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Faster Than Light - hc
+title: Faster Than Light - Hc
 description: Progress through challenging levels with the ability to freeze time.
 img: assets/img/ftlhc_b.png
 importance: 1
