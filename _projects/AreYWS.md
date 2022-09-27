@@ -3,7 +3,7 @@ layout: page
 title: Are Ya Winning, Son?
 description: A game in which the AI won't let you win!
 img: assets/img/ayws.png
-importance: 1
+importance: 2
 category: games (personal)
 ---
 The A.I. of this game has taken over and the game is OUT OF your CONTROL and he challenges that he won't let you win.
