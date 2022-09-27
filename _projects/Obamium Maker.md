@@ -2,7 +2,7 @@
 layout: page
 title: Obamium Maker
 description: You are a spiny toilet and your goal is to fill tubs with water!
-img: assets/img/obamium.jps
+img: assets/img/obamium.jpg
 importance: 6
 category: games (personal)
 ---
