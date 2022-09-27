@@ -18,4 +18,7 @@ I’m a senior undergraduate at IIT Gandhinagar. I’m into developing games, VF
 
 Few of them are available  on my [Github](https://github.com/aniketrajnish). The design & development documents of these projects can be found in the `blogs` section.
 
+<div class="profile float-{%- if page.profile.align == 'left' -%}left{%- else -%}right{%- endif -%}">
+{%- assign profile_image_class = "img-fluid z-depth-1 rounded" -%}
 <iframe width="500" height="281" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="RICKROLLED" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
