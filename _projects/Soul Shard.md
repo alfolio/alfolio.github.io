@@ -4,7 +4,7 @@ title: Soul Shard
 description: Soul Shard is a cooperative puzzle platformer that draws inspiration from EA’s ‘It Takes Two’.
 img: assets/img/SoulShard.png
 importance: 1
-category: work
+category: games (professional)
 ---
 
 Every project has a beautiful feature showcase page.
