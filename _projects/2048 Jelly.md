@@ -2,7 +2,7 @@
 layout: page
 title: 2048 Jelly
 description: Ever imagined what the game 2048 must be in 3D?
-img: assets/img/2048j.png
+img: assets/img/2048j.jpg
 importance: 2
 category: games (personal)
 ---
