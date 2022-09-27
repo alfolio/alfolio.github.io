@@ -3,7 +3,7 @@ layout: page
 title: Human Canon
 description: Shoot people across islands with your canon!
 img: assets/img/canon.png
-importance: 3
+importance: 9
 category: games (professional)
 ---
 
