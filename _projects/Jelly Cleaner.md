@@ -2,7 +2,7 @@
 layout: page
 title: Jelly Cleaner
 description: Pour jelly over dirty objects and pull it off to clean them!
-img: assets/img/3.jpg
+img: assets/img/jellycleaner_b.png
 importance: 2
 category: games (professional)
 ---
