@@ -24,5 +24,5 @@ Developed for prototype testing to CrazyLabs as a part of PPP (Pay-Per-Prototype
     </div>
 </div>
 <div class="caption">
-    Screenshots from the build.
+    Screenshots from the build
 </div>
