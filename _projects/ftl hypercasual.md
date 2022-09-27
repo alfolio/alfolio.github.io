@@ -26,9 +26,6 @@ Dodge the bullets and kill the enemies by smashing through them using weird weap
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/fhc3.webp" title="screenshot" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
-
-<div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/fhc4.webp" title="screenshot" class="img-fluid rounded z-depth-1" %}
     </div>
@@ -37,7 +34,6 @@ Dodge the bullets and kill the enemies by smashing through them using weird weap
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/fhc6.webp" title="screenshot" class="img-fluid rounded z-depth-1" %}
-    </div>
 </div>
 
 <div class="caption">
