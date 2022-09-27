@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Projects & Games I've worked upon in my undergraduate years.
+description: Stuff I've worked upon in my undergraduate years.
 nav: true
 nav_order: 1
 display_categories: [games (professional), games (personal), computer graphics, simulations, concept pitches, vfx & edits, misc]
