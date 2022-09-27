@@ -2,7 +2,7 @@
 layout: page
 title: Faster Than Light - Hypercasual
 description: Progress through challenging levels with the ability to freeze time.
-img: assets/img/2opp.png
+img: assets/img/ftlhc_b.png
 importance: 1
 category: games (personal)
 ---

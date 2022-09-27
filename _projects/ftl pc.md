@@ -2,7 +2,7 @@
 layout: page
 title: Faster Than Light - PC
 description: To 'REWIND' the time one has to achieve the speed of light. Can you?
-img: assets/img/2opp.png
+img: assets/img/ftl.jpg
 importance: 1
 category: games (personal)
 ---
@@ -11,7 +11,7 @@ Corona has taken over the world. Vaccines have failed to stop it. Scientists hav
 * Made in 7 days for the 2020 Brackeys Game Jam (3rd biggest gamejam on itch with 9k+ participants)
 * Game ranked #71 in Audio category and #132 overall.
 * Programmed every mechanic & enemy AI of the game.
-* Looked after the lighting and shaders used in the gamne.
+* Looked after the lighting and shaders used in the game.
 * Implemented bullet time mechanics.
 * Implemented player physics from scratch that would allow the player to move in space independent of the world's timescale.
 
