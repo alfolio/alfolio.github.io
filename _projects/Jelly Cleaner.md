@@ -7,7 +7,5 @@ importance: 5
 category: games (professional)
 ---
 Developed for prototype testing to CrazyLabs as a part of PPP (Pay-Per-Prototype) deal. The CPI test video delivered can be found [here](https://youtu.be/FnhNXtHPPoE).
-* Optimized multiple navmesh agents for mobile devices.
-* Wrote a shader that supports both transparency andinterpolation between two colours.
-* Wrote swerve mechanics trending in hypercasual gamesthese days.
-* Wrote mechanics for algebraic gates trending in hypercasual games these days.
+* Qualified the CPI tests.
+* Wrote jelly physics algorithms that's performant over mobile devices using spring joints.
