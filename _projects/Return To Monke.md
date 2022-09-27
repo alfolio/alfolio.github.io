@@ -2,7 +2,7 @@
 layout: page
 title: Return To Monke
 description: Reject humanity embrace Monke.
-img: assets/img/c19sr.png
+img: assets/img/r2m.png
 importance: 6
 category: games (personal)
 ---
