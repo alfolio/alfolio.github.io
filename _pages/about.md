@@ -14,8 +14,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I’m a senior undergraduate at IIT Gandhinagar. I’m into developing games, VFX, editing videos, computer graphics, and simulations. You can find the projects that I've worked upon in my undergraduate years in the `projects` section. If you want the source code/build of any of these you can contact me!
+I’m a senior undergraduate at IIT Gandhinagar. I’m into developing games, VFX, editing videos, computer graphics, and simulations. I've developed games that have over 347k+ downloads on Play Store and played 1M+ times. You can find the projects that I've worked upon in my undergraduate years in the `projects` section. 
 
-Few of them are available  on my [Github](https://github.com/aniketrajnish). The design & development documents of these projects can be found in the `docs` section.
+If you want the source code/build of any of these you can contact me. Few of them are available  on my [Github](https://github.com/aniketrajnish). The design & development documents of these projects can be found in the `docs` section.
 
 <iframe width="500" height="281" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="RICKROLLED" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+*Games & Project Showreel*
