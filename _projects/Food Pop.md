@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Human Rush
+title: Food Pop
 description: Blast the swallowed food and make path for medicine tablet!
 
 img: assets/img/cp9.png
