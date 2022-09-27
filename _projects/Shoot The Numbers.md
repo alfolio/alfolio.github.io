@@ -11,3 +11,18 @@ Developed for prototype testing to CrazyLabs as a part of PPP (Pay-Per-Prototype
 * Wrote a shader that supports both transparency and interpolation between two colours.
 * Wrote swerve mechanics trending in hypercasual games these days.
 * Wrote mechanics for algebraic gates trending in hypercasual games these days.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/stn1.webp" title="screenshot" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/stn2.webp" title="screenshot" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/stn3.webp" title="screenshot" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Screenshots from the build.
+</div>
