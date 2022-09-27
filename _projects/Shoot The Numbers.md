@@ -3,7 +3,7 @@ layout: page
 title: Shoot The Numbers
 description: Dual wield uzis and smash through the enemies while shooting the correct numbers!
 img: assets/img/stn.png
-importance: 8
+importance: 2
 category: games (professional)
 ---
 Developed for prototype testing to CrazyLabs as a part of PPP (Pay-Per-Prototype) deal. The CPI test video delivered can be found [here](https://youtu.be/OnMOxLZIVHE).

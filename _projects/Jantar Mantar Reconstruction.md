@@ -3,7 +3,7 @@ layout: page
 title: Jantar Mantar Reconstruction
 description: A physically precise interactive model of Jantar Mantar
 img: assets/img/jmr.png
-importance: 2
+importance: 3
 category: games (professional)
 ---
 * As a part of the project course DES 499, we are expected to design and develop an interactive environment of the various yantras at [Jantar Mantar](https://www.jantarmantar.org/) for the user to navigate through it for the [MHRD](https://www.education.gov.in/en)
