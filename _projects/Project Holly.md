@@ -13,3 +13,21 @@ category: games (professional)
  * Everything is streamed online so you only use your data for what you want
  * Try the demo [here](https://play.google.com/store/apps/details?id=com.makra.Holly)
  * Developed an asset that allows one to stream a video in small chunks accroding to his choices.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/hol1.webp" title="screenshot" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/hol2.webp" title="screenshot" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/hol3.webp" title="screenshot" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/hol4.webp" title="screenshot" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Screenshots from the build
+</div>
