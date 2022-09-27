@@ -2,7 +2,7 @@
 layout: page
 title: Dodge Master
 description: Dodge and save yourself from oncoming objects in bullet time!
-img: assets/img/canon.png
+img: assets/img/dodge.png
 importance: 5
 category: games (professional)
 ---
