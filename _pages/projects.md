@@ -5,7 +5,7 @@ permalink: /projects/
 description: Stuff I've worked upon in my undergraduate years.
 nav: true
 nav_order: 1
-display_categories: [games (personal), games (professional), computer graphics, concept pitches, vfx & edits, misc]
+display_categories: [games (personal), games (professional), computer graphics, vfx & edits, concept pitches, misc]
 horizontal: false
 ---
 
