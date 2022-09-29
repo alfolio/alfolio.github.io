@@ -106,3 +106,57 @@ lineMat.color.a));
 
 
 {% endhighlight %}
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/TwoOppLogo.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    With transparency controls, the rays looked more natural.
+</div>
+
+#### 1.3 Environment Lighting
+* The next step would be to make the scene react to the light rays emitted by the player.
+* This involved two steps-
+
+1. Making the light ray stop when it hits an object. This is done by Raycasting along the light rays that GL draws and checking if we've hit something.
+
+{% highlight c# %}
+
+
+RaycastHit2D hit = Physics2D.Raycast(player.transform.position, new Vector2(Mathf.Cos(i * Mathf.Deg2Rad), Mathf.Sin(i * Mathf.Deg2Rad)), maxVisiblityDistance);
+
+if (hit)
+{
+    GL.Vertex3(player.transform.position.x, player.transform.position.y, 0);
+    GL.Vertex3(hit.point.x, hit.point.y, 0);
+}
+
+else
+{
+    GL.Vertex3(player.transform.position.x, player.transform.position.y, 0);
+    GL.Vertex3(player.transform.position.x +
+    Mathf.Cos(i * Mathf.Deg2Rad)* maxVisiblityDistance,
+    player.transform.position.y +
+    Mathf.Sin(i * Mathf.Deg2Rad)* maxVisiblityDistance,
+    0);
+} 
+
+
+{% endhighlight %}
+
+2. Making the sprite color of the object depend upon its distance from the light source.
+
+{% highlight c# %}
+
+
+GL.Begin(GL.LINES);
+lineMat.SetPass(0);
+GL.Color(new Color(lineMat.color.r,
+lineMat.color.g,
+lineMat.color.b,
+lineMat.color.a));
+
+
+{% endhighlight %}
