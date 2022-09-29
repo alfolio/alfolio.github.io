@@ -109,7 +109,7 @@ lineMat.color.a));
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/TwoOppLogo.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/TRays.gif" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -151,12 +151,14 @@ else
 {% highlight c# %}
 
 
-GL.Begin(GL.LINES);
-lineMat.SetPass(0);
-GL.Color(new Color(lineMat.color.r,
-lineMat.color.g,
-lineMat.color.b,
-lineMat.color.a));
+SpriteRenderer sp = hit.transform.GetComponent<SpriteRenderer>();
+if (sp != null)
+{
+    sp.color = new Color(1 / Mathf.Pow(Vector3.Distance(
+        hit.transform.position, player.transform.position), 1.5f),
+        1 / Mathf.Pow(Vector3.Distance(hit.transform.position, player.transform.position), 1.5f),
+        1 / Mathf.Pow(Vector3.Distance(hit.transform. position, player.transform. position), 1.5f));
+}
 
 
 {% endhighlight %}
