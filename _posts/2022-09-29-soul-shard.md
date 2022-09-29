@@ -1,15 +1,15 @@
 ---
 layout: post
-title: making a 2D lighting system for Two Opposites
-date: 2022-09-29 11:00:00
-description: this blog shows the thought & development process behind Two Opposites- especially the 2D lighting system I wrote (adopted by Unity in the later versions)
+title: Work at FIEA - Documented!
+date: 2022-09-30 11:00:00
+description: documentation & logs of work done on Soul Shard at FIEA!
 tags: unity3d 2dlighting brackeys
 categories: blog
 ---
 
-Two opposites is a game about the journey of two opposites (characters with mirrored controls) separated by a mirror. They need to solve puzzles to escape the mirror world and finally meet each other. However, the challenge lies in the fact that they can only solve these puzzles together. You can play it in your browser [here].(https://makra.itch.io/two-opposites)
-
-The game was made in a week (in a team of three) for the Brackeys Game Jam (10k+ people participated worldwide) and ranked **#22 in the innovation category.** 
+Soul Shard is a cooperative puzzle platformer that draws inspiration from EA's 'It Takes Two'. It is being developed by [19 Souls on Board](https://www.19soulsonboard.com/about), a team of 19 student developers from Cohort 18 at the Florida Interactive Entertainment Academy on the downtown campus of the University of Central Florida. I'm assisting the team as a technical artist this summer.
+* The development update to the game can be viewed [here](https://www.youtube.com/watch?v=0S1EbyBRVhw). 
+* The repository containing my contributions to the project can be found [here](https://github.com/19SOB/ucf-fiea-19sob-capstone-project-temp).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
