@@ -36,8 +36,10 @@ for (float i = 0; i < theta; i += steps)
     GL.Color(col); // Initializing GL Library with white color as input
 
     GL.Vertex3(player.transform.position.x, player.transform.position.y, 0); //strating point
-    GL.Vertex3(player.transform.position.x + Mathf.Cos(i * Mathf.Deg2Rad) * maxVisiblityDistance, 
-    player.transform.position.y + Mathf.Sin(i * Mathf.Deg2Rad) * maxVisiblityDistance, 
+    GL.Vertex3(player.transform.position.x + 
+    Mathf.Cos(i * Mathf.Deg2Rad) * maxVisiblityDistance, 
+    player.transform.position.y + 
+    Mathf.Sin(i * Mathf.Deg2Rad) * maxVisiblityDistance, 
     0); //ending point
 
     GL.End(); //clearing garbage            
