@@ -19,10 +19,10 @@ The game was made in a week (in a team of three) for the Brackeys Game Jam (10k+
     This image can also have a caption. It's like magic.
 </div>
 
-#### 1.0 2D Lighting System
+### 1.0 2D Lighting System
 Upon initial analysis, we decided that the atmosphere should be given the most priority while developing this game. And the visual appeal of the game played a significant role in that. Back when we started working on this project, Unity didn't have any rendering pipeline that supported 2D lighting. So my task was to develop a 2D lighting system for the game.
 
-#### 1.1 2D Raycaster (GL) - 1st iteration
+### 1.1 2D Raycaster (GL) - 1st iteration
 * The basic idea was to draw transparent lines originating radially outwards from a sprite with negligible separation to give a sense of light coming out.
 * I used the Unity's low level [Graphics Library (gl)](https://docs.unity3d.com/ScriptReference/GL.html) to draw lines between two points.
 * The raycast loop formulated- <br>
@@ -57,25 +57,34 @@ for (float i = 0; i < theta; i += steps)
 * This script is attached to the MainCamera and the loop is called in **OnPostRender()** method so that the lines are rendered as soon as the camera finishes rendering the scene.
 
 
-<table border="0">
- <tr>
-    <td><a href="../files/theta.gif" data-lightbox="parameters" data-title="Adjusting theta"><img src="../files/theta.gif" style="width:100%"></a></td>
-    <td><a href="../files/steps.gif" data-lightbox="parameters" data-title="Adjusting steps"><img src="../files/steps.gif" style="width:100%"></a></td>
- </tr>
- <tr>
-    <td>Adjusting theta</td>
-    <td>Adjusting steps</td>
- </tr>
-</table>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/theta.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">
+        Adjusting theta
+        </div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/steps.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+        <div class="caption">
+         Adjusting steps
+        </div>
+    </div>
+    
+</div>
 
-<table border="0">
- <tr>
-    <td><a href="../files/col.gif" data-lightbox="parameters" data-title="Adjusting color"><img src="../files/col.gif" style="width:100%"></a></td>
-    <td><a href="../files/maxvdist.gif" data-lightbox="parameters" data-title="Adjusting max visibility distance"><img src="../files/maxvdist.gif" style="width:100%"></a></td>    
- </tr>
- <tr>
-    <td>Adjusting color</td>
-    <td>Adjusting max visibility distance</td>
- </tr>
-</table>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/col.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="caption">
+    Adjusting color
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/maxvdist.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="caption">
+    Adjusting max visibility distance
+    </div>
+</div>
 
