@@ -11,13 +11,13 @@ category: games (personal)
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/cd1.jpeg" title="screenshot" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/cd1.jpeg" title="screenshot" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/cd2.jpeg" title="screenshot" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/cd2.jpeg" title="screenshot" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/cd3.jpeg" title="screenshot" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/cd3.jpeg" title="screenshot" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>     
 </div>
 

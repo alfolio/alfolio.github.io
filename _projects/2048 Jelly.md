@@ -14,19 +14,19 @@ This game is a cool-er version of 2048 with Smooth Animations, soothing Sound Ef
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/j1.webp" title="screenshot" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/j1.webp" title="screenshot" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/j2.webp" title="screenshot" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/j2.webp" title="screenshot" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/j3.webp" title="screenshot" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/j3.webp" title="screenshot" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/j4.webp" title="screenshot" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/j4.webp" title="screenshot" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 

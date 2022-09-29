@@ -14,16 +14,16 @@ category: games (personal)
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/d2m1.png" title="screenshot" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/d2m1.png" title="screenshot" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/d2m2.png" title="screenshot" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/d2m2.png" title="screenshot" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/d2m3.png" title="screenshot" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/d2m3.png" title="screenshot" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/d2m4.png" title="screenshot" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/d2m4.png" title="screenshot" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 

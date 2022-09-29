@@ -14,22 +14,22 @@ The A.I. of this game has taken over and the game is OUT OF your CONTROL and he 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/ayws1.png" title="screenshot" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/ayws1.png" title="screenshot" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/ayws2.png" title="screenshot" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/ayws2.png" title="screenshot" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/ayws3.png" title="screenshot" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/ayws3.png" title="screenshot" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/ayws4.png" title="screenshot" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/ayws4.png" title="screenshot" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/ayws5.png" title="screenshot" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/ayws5.png" title="screenshot" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
