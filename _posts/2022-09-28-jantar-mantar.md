@@ -152,7 +152,7 @@ In this week we were expected to start working the UX that our project had to of
   <source src="../files/user_control.mp4" type="video/mp4">  
 </video>
 
-##### 3.3 Custom Time Input
+#### 3.3 Custom Time Input
 * I used the Text Mesh Pro input box to take inputs from the user.
 * I limited each text box to take 2-digit integer inputs (HH & MM format).
 * This value was used to assign a custom time value that users could input to check the behavior of the sundial at that particular time.
