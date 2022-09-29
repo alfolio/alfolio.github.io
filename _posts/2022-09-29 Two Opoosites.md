@@ -45,7 +45,27 @@ int main(int argc, char const \*argv[])
 
 {% endhighlight %}
 
+* This loop draws rays from the player's position to equally spaced points around the player.
+* The angle that light covers is governed by **theta**.
+* The spacing between each ray is governed by **steps**.
+* The color of the rays is governed by **col**.
+* The length of light ray is governed by **maxVisiblityDistance**.
+* All of these variables were serialized in the inspector.
+* This script is attached to the MainCamera and the loop is called in **OnPostRender()** method so that the lines are rendered as soon as the camera finishes rendering the scene.
 
 
-
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/theta.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="caption">
+    Adjusting theta
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/steps.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="caption">
+    Adjusting steps
+    </div>
+</div>
 
