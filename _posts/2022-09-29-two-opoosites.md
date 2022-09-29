@@ -50,12 +50,12 @@ for (float i = 0; i < theta; i += steps)
 {% endhighlight %}
 
 * This loop draws rays from the player's position to equally spaced points around the player.
-* The angle that light covers is governed by **theta**.
-* The spacing between each ray is governed by **steps**.
-* The color of the rays is governed by **col**.
-* The length of light ray is governed by **maxVisiblityDistance**.
+* The angle that light covers is governed by `theta`.
+* The spacing between each ray is governed by `steps`.
+* The color of the rays is governed by `col`.
+* The length of light ray is governed by `maxVisiblityDistance`.
 * All of these variables were serialized in the inspector.
-* This script is attached to the MainCamera and the loop is called in **OnPostRender()** method so that the lines are rendered as soon as the camera finishes rendering the scene.
+* This script is attached to the MainCamera and the loop is called in `OnPostRender()` method so that the lines are rendered as soon as the camera finishes rendering the scene.
 
 
 <div class="row">
@@ -242,13 +242,13 @@ void Update()
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/BoySprite.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/BoySprite.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
         <div class="caption">
         Boy Sprite Sheet
         </div>
     </div>    
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/GirlSprite.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/GirlSprite.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
         <div class="caption">
         Girl Sprite Sheet
         </div>
@@ -296,9 +296,9 @@ AnimatorEnable()
 
 {% endhighlight %}
 
-* The translation is governed by Unity's Physics engine (using rigidbodies) and is executed in the **FixedUpdate()** method to keep it independent of frame rate.
+* The translation is governed by Unity's Physics engine (using rigidbodies) and is executed in the `FixedUpdate()` method to keep it independent of frame rate.
 * The rotation of the sprite changes with its direction (governed by the combination of vertical and horizontal input).
-* The translation and rotation speed is parametrically controlled by **speed** and **rotSpeed** variable exposed in the inspector.
+* The translation and rotation speed is parametrically controlled by `speed` and `rotSpeed` variable exposed in the inspector.
 * The animation is simply enabled if we're sending an input, else it stays disabled.
 
 <div class="row">
