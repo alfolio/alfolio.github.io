@@ -1,6 +1,6 @@
 ---
 layout: post
-title: making a 2D lighting system for Two Opposites
+title: making a 2D lighting system
 date: 2022-09-22 11:00:00
 description: this blog shows the thought & development process behind Two Opposites- especially the 2D lighting system I wrote (adopted by Unity in the later versions)
 tags: unity3d 2dlighting brackeys
