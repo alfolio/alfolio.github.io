@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Two Opposites
+title: making a 2D lighting system for Two Opposites
 date: 2022-09-22 11:00:00
-description: blog showing the development process behind two opposites
+description: this blog shows the thought & development process behind Two Opposites- especially the 2D lighting system I wrote (adopted by Unity in the later versions)
 tags: unity3d 2dlighting brackeys
 categories: blog
 ---
@@ -171,3 +171,34 @@ if (sp != null)
 <div class="caption">
     Final Output
 </div>
+
+#### 1.4 2D Raycaster (GL) - 2nd iteration
+* The previous method for generating rays was very inefficient with time complexity of O(n) as the loop had to run 3600 times every frame with a step size of 0.1.
+* This issue was solved by detecting the edges of nearby objects and casting rays at them and then filling the space by generating mesh between them.
+
+{% highlight c# %}
+
+
+int numRays = Caster.LightContour.Count - 1;
+LightMesh.mesh.vertices = Caster. LightContour. ToArray();
+int[] triangles = new int[numRays * 3];
+for (int i = 0; i < numRays * 3; i += 3)
+{
+triangles[i] = (i / 3 + 1) % numRays;
+triangles[i + 1] = numRays;
+triangles[i + 2] = (i7 3 + 2) % numRays;
+}
+LightMesh.mesh.triangles = triangles;
+
+{% endhighlight %}
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/2dmeshlightsys.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Final Output
+</div>
+
+**This 2D lighting system that I incorporated in the project was implemented by Unity in the later versions as a Package in URP Render Pipeline.**
