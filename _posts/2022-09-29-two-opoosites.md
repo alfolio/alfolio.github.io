@@ -16,13 +16,13 @@ The game was made in a week (in a team of three) for the Brackeys Game Jam (10k+
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Two Opposites Logo
 </div>
 
-### 1.0 2D Lighting System
+#### 1.0 2D Lighting System
 Upon initial analysis, we decided that the atmosphere should be given the most priority while developing this game. And the visual appeal of the game played a significant role in that. Back when we started working on this project, Unity didn't have any rendering pipeline that supported 2D lighting. So my task was to develop a 2D lighting system for the game.
 
-### 1.1 2D Raycaster (GL) - 1st iteration
+#### 1.1 2D Raycaster (GL) - 1st iteration
 * The basic idea was to draw transparent lines originating radially outwards from a sprite with negligible separation to give a sense of light coming out.
 * I used the Unity's low level [Graphics Library (gl)](https://docs.unity3d.com/ScriptReference/GL.html) to draw lines between two points.
 * The raycast loop formulated- <br>
@@ -88,3 +88,21 @@ for (float i = 0; i < theta; i += steps)
     </div>    
 </div>
 
+#### 1.2 Ray Material
+* The next task to make the light rays feel more natural by introducing transparency.
+* While pondering I found that GL library by default uses the Unlit material provided by Unity to create the lines.
+* As the Unlit Material doesn't support transparency by default, I wrote an Unlit Shader that supported both transparency and vertex colors.
+* The RGBA values of the colors of the material based upon this shader was passed as an input. 
+
+{% highlight c# %}
+
+
+GL.Begin(GL.LINES);
+lineMat.SetPass(0);
+GL.Color(new Color(lineMat.color.r,
+lineMat.color.g,
+lineMat.color.b,
+lineMat.color.a));
+
+
+{% endhighlight %}
