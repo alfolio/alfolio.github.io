@@ -119,13 +119,15 @@ lineMat.color.a));
 #### 1.3 Environment Lighting
 * The next step would be to make the scene react to the light rays emitted by the player.
 * This involved two steps-
-
-1. Making the light ray stop when it hits an object. This is done by Raycasting along the light rays that GL draws and checking if we've hit something.
+  * Making the light ray stop when it hits an object. This is done by Raycasting along the light rays that GL draws and checking if we've hit something.
 
 {% highlight c# %}
 
 
-RaycastHit2D hit = Physics2D.Raycast(player.transform.position, new Vector2(Mathf.Cos(i * Mathf.Deg2Rad), Mathf.Sin(i * Mathf.Deg2Rad)), maxVisiblityDistance);
+RaycastHit2D hit = Physics2D.Raycast(player.transform.position,
+new Vector2(Mathf.Cos(i * Mathf.Deg2Rad),
+Mathf.Sin(i * Mathf.Deg2Rad)),
+maxVisiblityDistance);
 
 if (hit)
 {
@@ -146,7 +148,7 @@ else
 
 {% endhighlight %}
 
-2. Making the sprite color of the object depend upon its distance from the light source.
+  * Making the sprite color of the object depend upon its distance from the light source.
 
 {% highlight c# %}
 
@@ -155,9 +157,12 @@ SpriteRenderer sp = hit.transform.GetComponent<SpriteRenderer>();
 if (sp != null)
 {
     sp.color = new Color(1 / Mathf.Pow(Vector3.Distance(
-        hit.transform.position, player.transform.position), 1.5f),
-        1 / Mathf.Pow(Vector3.Distance(hit.transform.position, player.transform.position), 1.5f),
-        1 / Mathf.Pow(Vector3.Distance(hit.transform. position, player.transform. position), 1.5f));
+        hit.transform.position, player.transform.position), 
+        1.5f),
+        1 / Mathf.Pow(Vector3.Distance(hit.transform.position, player.transform.position), 
+        1.5f),
+        1 / Mathf.Pow(Vector3.Distance(hit.transform. position, player.transform. position), 
+        1.5f));
 }
 
 
