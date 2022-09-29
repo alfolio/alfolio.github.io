@@ -12,7 +12,7 @@ The game was made in a week (in a team of three) for the Brackeys Game Jam (10k+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/TwoOppLogo.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/TwoOppLogo.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -65,7 +65,7 @@ for (float i = 0; i < theta; i += steps)
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/steps.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/steps.gif" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
         <div class="caption">
          Adjusting steps
         </div>
@@ -75,13 +75,13 @@ for (float i = 0; i < theta; i += steps)
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/col.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/col.gif" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
         <div class="caption">
         Adjusting color
         </div>
     </div>    
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/maxvdist.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/maxvdist.gif" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
         <div class="caption">
         Adjusting max visibility distance
         </div>
@@ -109,7 +109,7 @@ lineMat.color.a));
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/TRays.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/TRays.gif" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -165,7 +165,7 @@ if (sp != null)
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/2dlightsys.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/2dlightsys.gif" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -194,7 +194,7 @@ LightMesh.mesh.triangles = triangles;
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/2dmeshlightsys.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/2dmeshlightsys.gif" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -225,7 +225,7 @@ void Update()
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/inversion.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/inversion.gif" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
@@ -235,13 +235,13 @@ void Update()
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/BoySprite.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/BoySprite.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
         <div class="caption">
         Boy Sprite Sheet
         </div>
     </div>    
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/GirlSprite.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/GirlSprite.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
         <div class="caption">
         Girl Sprite Sheet
         </div>
@@ -296,7 +296,7 @@ AnimatorEnable()
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Sprites.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Sprites.gif" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
@@ -308,7 +308,7 @@ We decided to come up with a button mechanic system. The idea was to spawn two b
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Buttons.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Buttons.gif" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
@@ -319,13 +319,13 @@ To add more depth to the puzzles, we decided to come up with a few objects that 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/crate.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/crate.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
         <div class="caption">
         Crate Base Map
         </div>
     </div>    
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/cratenormal.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/cratenormal.jpg" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
         <div class="caption">
         Crate Normal Map
         </div>
@@ -337,7 +337,7 @@ To add more depth to the puzzles, we decided to come up with a few objects that 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Pushable.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Pushable.gif" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
@@ -350,7 +350,7 @@ We decided to include spikes in the game. They would kill the players on contact
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/death2opp.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/death2opp.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
@@ -360,19 +360,19 @@ We decided to include spikes in the game. They would kill the players on contact
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/spikes.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/spikes.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
         <div class="caption">
         Spike Base Map
         </div>
     </div>    
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/SpikesNormal.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/SpikesNormal.jpg" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
         <div class="caption">
         Spike Normal Map
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/spike height.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/spike height.jpg" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
         <div class="caption">
         Spike Height Map
         </div>
@@ -386,7 +386,7 @@ We decided to include spikes in the game. They would kill the players on contact
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/BloodSplash.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/BloodSplash.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
@@ -413,7 +413,7 @@ IEnumerator Death()
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/death2opp.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/death2opp.gif" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -430,13 +430,13 @@ The biggest challenge ahead of us was actually to come up with a level design th
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/WSADGame.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/WSADGame.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true  %}
         <div class="caption">
         Key Sprite in Game
         </div>
     </div>    
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/WSADXD.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/WSADXD.jpg" title="example image" class="img-fluid rounded z-depth-1" zoomable=true  %}
         <div class="caption">
         Key Sprite made in Adobe XD
         </div>
@@ -447,13 +447,13 @@ The biggest challenge ahead of us was actually to come up with a level design th
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/ArrowGame.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/ArrowGame.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true  %}
         <div class="caption">
         Arrow Sprite in Game
         </div>
     </div>    
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/ArrowPS.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/ArrowPS.jpg" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
         <div class="caption">
         Arrow Sprite made in Photoshop
         </div>
@@ -464,7 +464,7 @@ The biggest challenge ahead of us was actually to come up with a level design th
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Lev1.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Lev1.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
@@ -472,7 +472,7 @@ The biggest challenge ahead of us was actually to come up with a level design th
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Lev2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Lev2.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
@@ -481,7 +481,7 @@ The biggest challenge ahead of us was actually to come up with a level design th
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Lev3.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Lev3.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
@@ -492,7 +492,7 @@ The biggest challenge ahead of us was actually to come up with a level design th
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Lev4.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Lev4.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
@@ -500,7 +500,7 @@ The biggest challenge ahead of us was actually to come up with a level design th
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Lev5.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Lev5.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
@@ -509,7 +509,7 @@ The biggest challenge ahead of us was actually to come up with a level design th
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Lev6.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Lev6.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
@@ -518,7 +518,7 @@ The biggest challenge ahead of us was actually to come up with a level design th
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Lev7.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Lev7.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
@@ -526,7 +526,7 @@ The biggest challenge ahead of us was actually to come up with a level design th
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Lev8.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Lev8.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
@@ -535,7 +535,7 @@ The biggest challenge ahead of us was actually to come up with a level design th
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Lev9.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Lev9.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
@@ -543,7 +543,7 @@ The biggest challenge ahead of us was actually to come up with a level design th
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/LevFin.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/LevFin.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
@@ -565,7 +565,7 @@ We used post processing to increase the immersion that the game offers. We decid
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/amatic.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/amatic.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
@@ -575,13 +575,13 @@ We used post processing to increase the immersion that the game offers. We decid
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/menuanim.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/menuanim.gif" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
         <div class="caption">
         Main Menu
         </div>
     </div>    
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/pausemenu.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/pausemenu.gif" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
         <div class="caption">
         Pause Menu
         </div>
@@ -593,7 +593,7 @@ We created a small clip using Unity's timeline as with the text only, the menu s
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/mainmenu.gif" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/mainmenu.gif" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 
