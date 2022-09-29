@@ -12,21 +12,21 @@ Developed for prototype testing to CrazyLabs as a part of PPP (Pay-Per-Prototype
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/jc1.webp" title="screenshot" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/jc1.webp" title="screenshot" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/jc2.webp" title="screenshot" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/jc2.webp" title="screenshot" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/jc3.webp" title="screenshot" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/jc3.webp" title="screenshot" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/jc4.webp" title="screenshot" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/jc4.webp" title="screenshot" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/jc4.webp" title="screenshot" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/jc4.webp" title="screenshot" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
-    Screenshots from the build.
+    Screenshots from the build
 </div>
