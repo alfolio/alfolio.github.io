@@ -243,11 +243,9 @@ Further I was assigned the task to develop a snow-based footprint system over sn
     </div>
     </div>    
 </div>
-
 <div class="caption">
     Foot Impressions
 </div>
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/AmbroseFPS1.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -262,7 +260,6 @@ Further I was assigned the task to develop a snow-based footprint system over sn
     </div>
     </div>    
 </div>
-
 <div class="caption">
     Footprint Sprites
 </div>
@@ -359,11 +356,9 @@ The team pinpointed that the current footprint lacked originality as snow footpr
     </div>
     </div>    
 </div>
-
 <div class="caption">
     Footprint Textures/Sprites
 </div>
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/AmbroseFPN.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
@@ -378,7 +373,6 @@ The team pinpointed that the current footprint lacked originality as snow footpr
     </div>
     </div>    
 </div>
-
 <div class="caption">
     Footprint Normals
 </div>
