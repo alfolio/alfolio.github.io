@@ -27,21 +27,22 @@ Upon initial analysis, we decided that the atmosphere should be given the most p
 * I used the Unity's low level [Graphics Library (gl)](https://docs.unity3d.com/ScriptReference/GL.html) to draw lines between two points.
 * The raycast loop formulated- <br>
 
-{% highlight c# linenos %}
+{% highlight c# %}
 
-int main(int argc, char const \*argv[])
+
+for (float i = 0; i < theta; i += steps)
 {
-    for (float i = 0; i < theta; i += steps)
-    {
-        GL.Begin(GL.LINES);               
-        GL.Color(col); // Initializing GL Library with white color as input
+    GL.Begin(GL.LINES);               
+    GL.Color(col); // Initializing GL Library with white color as input
 
-        GL.Vertex3(player.transform.position.x, player.transform.position.y, 0); //strating point
-        GL.Vertex3(player.transform.position.x + Mathf.Cos(i * Mathf.Deg2Rad) * maxVisiblityDistance, player.transform.position.y + Mathf.Sin(i * Mathf.Deg2Rad) * maxVisiblityDistance, 0); //ending point
+    GL.Vertex3(player.transform.position.x, player.transform.position.y, 0); //strating point
+    GL.Vertex3(player.transform.position.x + Mathf.Cos(i * Mathf.Deg2Rad) * maxVisiblityDistance, 
+    player.transform.position.y + Mathf.Sin(i * Mathf.Deg2Rad) * maxVisiblityDistance, 
+    0); //ending point
 
-        GL.End(); //clearing garbage            
-    }
+    GL.End(); //clearing garbage            
 }
+
 
 {% endhighlight %}
 
