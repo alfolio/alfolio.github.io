@@ -372,13 +372,13 @@ We decided to include spikes in the game. They would kill the players on contact
         </div>
     </div>    
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/SpikesNormal.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/SpikesNormal.png" title="example image" class="img-fluid rounded z-depth-1" %}
         <div class="caption">
         Spike Normal Map
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/spike height.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/spike height.png" title="example image" class="img-fluid rounded z-depth-1" %}
         <div class="caption">
         Spike Height Map
         </div>
@@ -442,7 +442,7 @@ The biggest challenge ahead of us was actually to come up with a level design th
         </div>
     </div>    
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/WSADXD.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/WSADXD.png" title="example image" class="img-fluid rounded z-depth-1" %}
         <div class="caption">
         Key Sprite made in Adobe XD
         </div>
@@ -459,7 +459,7 @@ The biggest challenge ahead of us was actually to come up with a level design th
         </div>
     </div>    
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/ArrowPS.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/ArrowPS.png" title="example image" class="img-fluid rounded z-depth-1" %}
         <div class="caption">
         Arrow Sprite made in Photoshop
         </div>
