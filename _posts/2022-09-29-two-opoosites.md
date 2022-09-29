@@ -371,13 +371,13 @@ We decided to include spikes in the game. They would kill the players on contact
         </div>
     </div>    
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/SpikesNormal.jpg" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/SpikesNormal.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
         <div class="caption">
         Spike Normal Map
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/spike height.jpg" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/spike height.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
         <div class="caption">
         Spike Height Map
         </div>
