@@ -355,11 +355,18 @@ We decided to include spikes in the game. They would kill the players on contact
 * Colliders were set up on the spikes (with 'Death' tag) and the player.
 * If the player comes in contact with the spike a Coroutine containing all the relevant methods for death of the player is called.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/death2opp.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
+{% highlight c# %}
+
+private void onCollisionEnter2D(Collision2D collision)
+{
+    if (collision.gameObject.CompareTag("Death"))
+    {
+        dead = true; 
+        StartCoroutine(Death());
+    }
+}
+
+{% endhighlight %}
 
 #### 6.1 Spike Texture
 * Since our core idea was to make the game atmospheric & appealing to eyes we wanted to keep environment ques pretty detailed. We decided to do the same with the spikes.
