@@ -1,11 +1,19 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
 description: Stuff I've worked upon in my undergraduate years.
 nav: true
 nav_order: 1
-display_categories: [games (personal), games (professional), computer graphics, vfx & edits, concept pitches, misc]
+display_categories:
+  [
+    games (personal),
+    games (professional),
+    computer graphics,
+    vfx & edits,
+    concept pitches,
+    misc,
+  ]
 horizontal: false
 ---
 
@@ -14,7 +22,7 @@ horizontal: false
 {%- if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
   {%- for category in page.display_categories %}
-  <h2 class="category">{{ category }}</h2>
+  <h2 class="category text-capitalize">{{ category }}</h2>
   {%- assign categorized_projects = site.projects | where: "category", category -%}
   {%- assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->
@@ -36,10 +44,15 @@ horizontal: false
   {% endfor %}
 
 {%- else -%}
+
 <!-- Display projects without categories -->
-  {%- assign sorted_projects = site.projects | sort: "importance" -%}
+
+{%- assign sorted_projects = site.projects | sort: "importance" -%}
+
   <!-- Generate cards for each project -->
-  {% if page.horizontal -%}
+
+{% if page.horizontal -%}
+
   <div class="container">
     <div class="row row-cols-2">
     {%- for project in sorted_projects -%}
