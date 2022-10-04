@@ -57,8 +57,8 @@ My job was to script the day & night cycles in Unity (need not be physically pre
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <video style="width:100%" autoplay muted loop>
-            <source src="../../../assets/img/day_night.mp4" type="video/mp4" class="video-fluid rounded z-depth-1" data-zoomable>
+        <video class="video-fluid rounded z-depth-1" autoplay muted loop>
+            <source src="../../../assets/img/day_night.mp4" type="video/mp4">
         </video>
     </div>
 </div>
@@ -118,8 +118,8 @@ In the next week we were assigned the task to come up with labelled Jantar Manta
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <video style="width:100%" autoplay muted loop>
-            <source src="../../../assets/img/shadow_day_night.mp4" type="video/mp4" class="video-fluid rounded z-depth-1" data-zoomable>
+        <video class="video-fluid rounded z-depth-1" autoplay muted loop>
+            <source src="../../../assets/img/shadow_day_night.mp4" type="video/mp4">
         </video>
     </div>
 </div>
@@ -146,16 +146,16 @@ In this week we were expected to start working the UX that our project had to of
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <video style="width:100%" autoplay muted loop>
-            <source src="../../../assets/img/shadow_day_night.mp4" type="video/mp4" class="video-fluid rounded z-depth-1" data-zoomable>
+        <video class="video-fluid rounded z-depth-1" autoplay muted loop>
+            <source src="../../../assets/img/shadow_day_night.mp4" type="video/mp4">
         </video>
         <div class="caption">
             Old Design - Less Physical Accuracy
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <video style="width:100%" autoplay muted loop>
-            <source src="../../../assets/img/accurate_day_night.mp4" type="video/mp4" class="video-fluid rounded z-depth-1" data-zoomable>
+        <video class="video-fluid rounded z-depth-1" autoplay muted loop>
+            <source src="../../../assets/img/accurate_day_night.mp4" type="video/mp4">
         </video>
         <div class="caption">
             New Design - More Physical Accuracy
@@ -169,8 +169,8 @@ In this week we were expected to start working the UX that our project had to of
 - The horizontal axis was assigned to the rotation of the camera whereas the vertical axis was kept responsible for the day/night cycle.
 - A dedicated prompt was shown on the screen to inform the users about the same.
 
-<video style="width:100%" autoplay muted loop>
-    <source src="../../../assets/img/user_control.mp4" type="video/mp4" class="video-fluid rounded z-depth-1" data-zoomable>
+<video class="video-fluid rounded z-depth-1" autoplay muted loop>
+    <source src="../../../assets/img/user_control.mp4" type="video/mp4">
 </video>
 
 #### 3.3 Custom Time Input
@@ -179,8 +179,8 @@ In this week we were expected to start working the UX that our project had to of
 - I limited each text box to take 2-digit integer inputs (HH & MM format).
 - This value was used to assign a custom time value that users could input to check the behavior of the sundial at that particular time.
 
-<video style="width:100%" autoplay muted loop>
-    <source src="../../../assets/img/time_day_night.mp4" type="video/mp4" class="video-fluid rounded z-depth-1" data-zoomable>
+<video class="video-fluid rounded z-depth-1" autoplay muted loop>
+    <source src="../../../assets/img/time_day_night.mp4" type="video/mp4">
 </video>
 
 #### UI & UX
