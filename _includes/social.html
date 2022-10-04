@@ -79,6 +79,12 @@
             {%- if site.discord_id -%}
             <a href="https://discord.com/users/{{ site.discord_id }}" title="Discord"><i class="fab fa-discord"></i></a>
             {% endif %}
+            {%- if site.google_play_id -%}
+            <a href="https://play.google.com/store/apps/dev?id={{ site.google_play_id }}" title="Play Store"><i class="fa-brands fa-google-play"></i></a>
+            {% endif %}
+            {%- if site.itch_id -%}
+            <a href="https://{{ site.itch_id }}.itch.io/" title="Itch"><i class="fa-brands fa-itch-io"></i></a>
+            {% endif %}
             {%- if site.rss_icon -%}
             <a href="{{ site.baseurl }}/feed.xml" title="RSS Feed"><i class="fas fa-rss-square"></i></a>
             {% endif %}
