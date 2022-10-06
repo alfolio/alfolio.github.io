@@ -6,6 +6,7 @@ img: assets/img/holly.jpg
 importance: 3
 category: games (professional)
 ---
+ *  Developed in a team of two with me looking after streaming backend, UI, and video editing, VFX and compositing.
  * A platform for completely interactive movies
  * The movies will proceed in the way you want them to
  * Your choices form one of the many perspectives

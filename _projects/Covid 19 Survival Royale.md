@@ -6,7 +6,7 @@ img: assets/img/c19sr.png
 importance: 6
 category: games (personal)
 ---
-* Solo developed the entire game as a starter project in Unity.
+* Solo developed the entire game as a starter 3D project in Unity.
 * An FPS-shooter pandemic simulator I made.
 * Got the first prize in a game jam hosted by my college.
 * Play [Here](https://drive.google.com/a/iitgn.ac.in/file/d/1RTDkU-kCBgqKmpHz13iJLWdAk9BMoVwX/view?usp=drivesdk)
