@@ -7,6 +7,7 @@ importance: 5
 category: games (professional)
 ---
 Developed for prototype testing to CrazyLabs as a part of PPP (Pay-Per-Prototype) deal. The CPI test video delivered can be found [here](https://youtu.be/FnhNXtHPPoE).
+* Developed in a team of two with me looking after game mechanics, lighting & shaders, and the overall production of the game and CPI video.
 * Qualified the CPI tests.
 * Wrote jelly physics algorithms that's performant over mobile devices using spring joints.
 

@@ -7,6 +7,7 @@ importance: 5
 category: games (professional)
 ---
 Developed for prototype testing to CrazyLabs as a part of PPP (Pay-Per-Prototype) deal. The CPI test video delivered can be found [here](https://youtu.be/6OCS70rkZJk).
+* Developed in a team of three with me looking after game mechanics, lighting & shaders, and the overall production of the game and CPI video.
 * Wrote time control mechnaics.
 * Implemented mesh deformation and reformation algorithm from [Body Crack ASMR](/projects/Body%20Crack%20ASMR).
 

@@ -7,6 +7,7 @@ importance: 4
 category: games (professional)
 ---
 Developed for prototype testing to CrazyLabs as a part of PPP (Pay-Per-Prototype) deal. The CPI test video delivered can be found [here](https://youtu.be/tipcHr53JcI).
+* Developed in a team of three with me looking after game mechanics, lighting & shaders, and the overall production of the game and CPI video.
 * Qualified the CPI test.
 * Wrote mesh deformation and reformation algorithm.
 * Wrote a mesh outline algorithm that's performant on mobile devices.

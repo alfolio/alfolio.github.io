@@ -7,6 +7,7 @@ importance: 5
 category: games (professional)
 ---
 Developed for prototype testing to CrazyLabs as a part of PPP (Pay-Per-Prototype) deal. The CPI test video delivered can be found [here](https://youtu.be/PZkQhBOjrHU).
+* Developed in a team of three with me looking after game mechanics, lighting & shaders, and the overall production of the game and CPI video.
 * Wrote texture masking algorithm to erase / paint textures over meshes.
 * Rigged a horse model.
 * Optimized fluid simulation for mobile devices.

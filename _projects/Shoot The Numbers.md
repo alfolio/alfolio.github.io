@@ -7,6 +7,7 @@ importance: 2
 category: games (professional)
 ---
 Developed for prototype testing to CrazyLabs as a part of PPP (Pay-Per-Prototype) deal. The CPI test video delivered can be found [here](https://youtu.be/OnMOxLZIVHE).
+* Developed in a team of four with me looking after game mechanics, lighting & shaders, and the overall production of the game and CPI video.
 * Optimized multiple navmesh agents for mobile devices.
 * Wrote a shader that supports both transparency and interpolation between two colours.
 * Wrote swerve mechanics trending in hypercasual games these days.
