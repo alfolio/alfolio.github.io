@@ -1,7 +1,7 @@
 ---
 layout: post
 title: DES 499 - Jantar Mantar Reconstruction
-date: 2022-09-28 08:00:00
+date: 2022-09-28 10:30:00
 description: documentation & logs of work done on Jantar Mantar Reconstruction as a part of DES499 Project Course!
 tags: unity3d jantarmantar design
 categories: blog
