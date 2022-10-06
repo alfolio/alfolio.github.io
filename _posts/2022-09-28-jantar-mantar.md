@@ -183,4 +183,40 @@ In this week we were expected to start working the UX that our project had to of
     <source src="../../../assets/img/time_day_night.mp4" type="video/mp4">
 </video>
 
-#### UI & UX
+#### 4.0 Week-4
+In this week we worked upon the UI & UX.
+
+#### 5.0 Week-5
+In this week, we began working upon the login system.
+
+#### 5.1 Home & Sign Up Page
+* Created a menu for selecting the yantra user wants to explore.
+* Created a SignUp Page once user selects a yantra.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/icons.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+        <div class="caption">
+        Yantra Selection Menu
+        </div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/signup_page.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+        <div class="caption">
+        Sign Up Menu
+    </div>
+    </div>    
+</div>
+
+#### 5.2 Login Information
+* The login details of users are stored in a google sheet.
+* In further iterations the details will be stored in a database.
+* The database will also be used for saving user preferences such as, camera and lightning setups.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/login_info.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+
+
