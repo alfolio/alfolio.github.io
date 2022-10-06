@@ -6,10 +6,10 @@ img: assets/img/fert.png
 importance: 6
 category: games (personal)
 ---
+* Solo developed in 3 days using Unity as a starter 2D project.
 * Play [Here](https://play.google.com/store/apps/details?id=com.makra.fert) 
-* Made in 2-3 days (I was stepping my shoes into game development that time) to be displayed in some Senate Meeting by our current club secretary. 
 * This game also includes a free open source database that I used to create an online leaderboard completely free (without paying google Play’s 25$ cost)
-* Solo developed in Unity as a starter 2D project.
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

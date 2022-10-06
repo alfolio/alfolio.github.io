@@ -7,6 +7,7 @@ importance: 1
 category: games (personal)
 ---
 Players need to solve puzzles to escape the mirror world and finally meet each other. However, the challenge lies in the fact that they can only solve these puzzles together. You can play it in your browser [here](https://makra.itch.io/two-opposites)
+* Developed in a team of three with me looking after game mechanics, lighting & shaders, UI design, and the overall production of the game.
 * Made in 7 days for the 2021 Brackeys Game Jam (2nd biggest gamejam on itch with 10k+ participants)
 * Game ranked #22 in the innovation category, #44 in the Game Design category and #71 overall.
 * Programmed every mechanic of the game (mirror movement, multiple camera setup etc.)

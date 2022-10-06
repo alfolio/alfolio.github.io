@@ -7,6 +7,7 @@ importance: 2
 category: games (personal)
 ---
 The A.I. of this game has taken over and the game is OUT OF your CONTROL and he challenges that he won't let you win.
+* * Developed in a team of two with me looking after game mechanics, animations, UI design, sound design, and the overall production of the game.
 * Play [Here](https://makra.itch.io/are-ya-winning-son)
 * Made in 48 hours for the 2020 GMTK Game Jam (Biggest gamejam on itch with 19k+ participants)
 * Game's presentation ranked #221.

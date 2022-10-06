@@ -6,10 +6,9 @@ img: assets/img/r2m.png
 importance: 6
 category: games (personal)
 ---
+* Developed in a team of four with me looking after game mechanics, lighting & shaders, UI & UX, sound design, and the overall production of the game.
 * Currently under development under a testing deal by [Kwalee](https://www.kwalee.com/)
 * [Prototype](https://gamejolt.com/games/return2monke/640579) submitted to the IGDAF game jam.
-* Programmed the entire mechanic of the game in Unity.
-* Looked after the lighting and shaders used in the game.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

@@ -7,6 +7,7 @@ importance: 1
 category: games (personal)
 ---
 Dodge the bullets and kill the enemies by smashing through them using weird weapons in satisfying bullet time! Play [here](https://play.google.com/store/apps/details?id=com.makra.FasterThanLight).
+* Developed in a team of three with me looking after game mechanics, lighting & shaders, UI design, sound design, and the overall production of the game.
 * Won the [JAMBOOST](https://gamejam.com/jam/jamboost) game jam hosted by [Chartboost](https://www.linkedin.com/company/chartboost/) and a prize of 1000$
 * Did fairly well in CPI tests.
 * Got 180$ for promotion.

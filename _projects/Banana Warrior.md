@@ -6,9 +6,10 @@ img: assets/img/bananawarrior.webp
 importance: 6
 category: games (personal)
 ---
+* Solo developed this game entirely in Unity for the college community to compete in!
 * Play [Here](https://play.google.com/store/apps/details?id=com.makra.BananaWarrior) 
 * Watch the devlog [here](https://youtu.be/9eCWAQxkuiI)
-* Solo developed this game entirely in Unity for the college community to compete in!
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

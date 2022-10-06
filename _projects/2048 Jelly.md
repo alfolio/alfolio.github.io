@@ -7,8 +7,8 @@ importance: 2
 category: games (personal)
 ---
 This game is a cool-er version of 2048 with Smooth Animations, soothing Sound Effects and NO Ads. The Goal is, of course, to reach 2048!
-* Play [Here](https://play.google.com/store/apps/details?id=com.Makra.J2048)
-* Entire game was made by me using Unity.
+* Solo developed.
+* Play [Here](https://play.google.com/store/apps/details?id=com.Makra.J2048).
 * Learnt to optimize realtime lighting for mobile devices.
 * Learnt to optimize post processing for mobile devices.
 

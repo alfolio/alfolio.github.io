@@ -6,8 +6,8 @@ img: assets/img/chrome_dino.webp
 importance: 6
 category: games (personal)
 ---
- * Play [here](https://share.catrob.at/app/project/4babb95a-8629-11eb-a92d-005056a36f47)
- * Made this to learn Pocket Code - A visual scripting based game development app on android.
+ * Solo developed this to learn Pocket Code - A visual scripting based game development app on android.
+ * Play [here](https://share.catrob.at/app/project/4babb95a-8629-11eb-a92d-005056a36f47) 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

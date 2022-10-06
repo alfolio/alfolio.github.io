@@ -6,10 +6,11 @@ img: assets/img/d2m.png
 importance: 6
 category: games (personal)
 ---
+ * Developed in a team of two with me looking after game mechanics, UI & UX, sound design, and the overall production of the game.
  * Play [Here](https://gamejolt.com/games/doge2themoon/636263) 
  * Made for the [Opera GX GameJam](https://gamejolt.com/c/gamemaker/ogxgj)
  * Watch the devlog [here](https://youtu.be/bzKPQ8AuJ9Q)
- * Wrote the mechanics for this game to learn GMS2.
+ * Wrote the mechanics for this game to learn GameMaker Studio 2.
  * Repo [here](https://github.com/aniketrajnish/operagx-gamejam-speedrun)
 
 <div class="row">
