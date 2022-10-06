@@ -1,12 +1,11 @@
 ---
 layout: page
 title: Obamium Maker
-description: You are a spiny toilet and your goal is to fill tubs with water!
+description: Make your own version of Obamium!
 img: assets/img/obamium.jpg
 importance: 6
 category: games (personal)
 ---
-Make your own version of Obamium!
  * Solo developed.
  * Try [Here](https://play.google.com/store/apps/details?id=com.makra.ObamiumMaker) 
  * Watch the devlog [here](https://www.youtube.com/watch?v=I6uJLIQS71s)
