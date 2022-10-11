@@ -190,8 +190,14 @@ In this week we worked upon the UI & UX.
 In this week, we began working upon the login system.
 
 #### 5.1 Home & Sign Up Page
-* Created a menu for selecting the yantra user wants to explore.
-* Created a SignUp Page once user selects a yantra.
+* Created a menu for selecting the yantra user wants to explore. 
+* Created icons for selecting the yantra user wants to explore.
+* A SignUp Page opens user selects a yantra.
+* The home.html page consists of containers, each representing a yantra having a class “product-container”, with reference to login.html
+* The webpage requires one-time signup.
+* The orientation of the login.html page is styled using css.
+* Js script with an event listener is linked to signup element.
+* The event listener sends data using POST request to the google sheet.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
