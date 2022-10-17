@@ -226,3 +226,19 @@ In this week, we began working upon the login system.
 </div>
 
 
+#### 6.0 Week-6
+In this week, we were expected to convert the Unity project into a web-based experience and integrate it with the our SignUp page. Apart from this, we were also expected to come up with precise models of the Yantras and integrate them within our project.
+
+#### 6.1 Exporting the Project to Web
+* The Unity project was optimized and revamped to be exported to the Web as a WebGL experience.
+* The project was hosted online using Github Pages and can be accessed [here](https://aryamanntomar.github.io/DES499-WebPage/).
+* All compressions on the build were disabled and they generally raise conflicts while getting decompressed on the Jekyll framework that GitHub Pages use.
+* Code was optimized to give preference to speed over size in the final build.
+* The homepage was renamed to `index.html` (naming convention for homepages on Github Pages).
+* The yantras were linked to the `jantar-mantar-experience.html` in our build.
+* We further plan to use Firebase Authentication to only provide private sessions to the users who Sign Up for the experience.
+
+<video class="video-fluid rounded z-depth-1" autoplay muted loop>
+    <source src="../../../assets/img/WebGLExp.mp4" type="video/mp4">
+</video>
+
