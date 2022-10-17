@@ -242,3 +242,5 @@ In this week, we were expected to convert the Unity project into a web-based exp
     <source src="../../../assets/img/WebGLExp.mp4" type="video/mp4">
 </video>
 
+#### 6.2 Precise models of the Yantras
+
