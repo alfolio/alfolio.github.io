@@ -186,6 +186,52 @@ In this week we were expected to start working the UX that our project had to of
 #### 4.0 Week-4
 In this week we worked upon the UI & UX.
 
+#### 4.1 Designing the UI
+
+#### 4.2 Implementing the UI in project
+* The UI was implemented over the canvas component provided by Unity to replace keyboard inputs with Touch/Click inputs. It Included-
+  * A Start/Stop Button
+  * A Slider
+  * A Left/Right Button
+  * A Forward/Backward button
+  
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/UI_Sundial.jpg" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+
+* The Start/Stop button was used to play and pause the simulation.
+* The Slider was used to rotate the camera angle (with step wise increment/decrement aided by the Left/Right button).
+* The Forward/Backward button used to speed up or reverse the process.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <video class="video-fluid rounded z-depth-1" autoplay muted loop>
+            <source src="../../../assets/img/start_stop_btn.mp4" type="video/mp4">
+        </video>
+        <div class="caption">
+            Start/Stop Button
+        </div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <video class="video-fluid rounded z-depth-1" autoplay muted loop>
+            <source src="../../../assets/img/slider.mp4" type="video/mp4">
+        </video>
+        <div class="caption">
+            Slider
+        </div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <video class="video-fluid rounded z-depth-1" autoplay muted loop>
+            <source src="../../../assets/img/fwd_bwd_btn.mp4" type="video/mp4">
+        </video>
+        <div class="caption">
+            Forward/Backward button
+        </div>
+    </div>      
+</div>
+
 #### 5.0 Week-5
 In this week, we began working upon the login system.
 
