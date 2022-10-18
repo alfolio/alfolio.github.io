@@ -187,6 +187,15 @@ In this week we were expected to start working the UX that our project had to of
 In this week we worked upon the UI & UX.
 
 #### 4.1 Designing the UI
+* The UI for the project was designed using Figma.
+* The icons were given a contrasting color with respect to the black and blue sky hue and they were provided with a drop shadow as well.
+* The edges were kept rounded to give it a material look.  
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/figma_sundial.jpg" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
 
 #### 4.2 Implementing the UI in project
 * The UI was implemented over the canvas component provided by Unity to replace keyboard inputs with Touch/Click inputs. It Included-
