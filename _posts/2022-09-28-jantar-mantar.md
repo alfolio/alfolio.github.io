@@ -194,16 +194,7 @@ In this week we worked upon the UI & UX.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/figma_sundial.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
-        <div class="caption">
-        Designed using Figma
-        </div>
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/btns.jpeg" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
-        <div class="caption">
-        The icons
-    </div>
-    </div>    
 </div>
 
 #### 4.2 Implementing the UI in project
