@@ -2,7 +2,7 @@
 layout: post
 title: FIEA Technical Artist Portfolio
 date: 2022-11-03 11:00:00
-description: this blog shall contain some of my favorite pieces of code/artwork that I'd be submitting for my echnical Artist Portfolio for FIEA!
+description: this blog shall contain some of my favorite pieces of code/artwork that I'd be submitting for my Technical Artist Portfolio (for FIEA)!
 tags: unity3d 2dlighting brackeys
 categories: blog
 ---
