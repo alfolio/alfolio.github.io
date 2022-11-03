@@ -7,9 +7,7 @@ tags: unity3d 2dlighting brackeys
 categories: blog
 ---
 
-Two opposites is a game about the journey of two opposites (characters with mirrored controls) separated by a mirror. They need to solve puzzles to escape the mirror world and finally meet each other. However, the challenge lies in the fact that they can only solve these puzzles together. You can play it in your browser [here](https://makra.itch.io/two-opposites).
-
-The game was made in a week (in a team of three) for the Brackeys Game Jam (10k+ people participated worldwide) and ranked **#22 in the innovation category.** 
+As the title suggests, this blog shall contain some of my favorite pieces of code/artwork that I'd be submitting for my Technical Artist Portfolio (for [FIEA](https://fiea.ucf.edu/)) in no particular order.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -20,10 +18,17 @@ The game was made in a week (in a team of three) for the Brackeys Game Jam (10k+
     Two Opposites Logo
 </div>
 
-#### 1.0 2D Lighting System
+#### 1.0 2D Lighting System - Unity
 Upon initial analysis, we decided that the atmosphere should be given the most priority while developing this game. And the visual appeal of the game played a significant role in that. Back when we started working on this project, Unity didn't have any rendering pipeline that supported 2D lighting. So my task was to develop a 2D lighting system for the game.
 
-#### 1.1 2D Raycaster (GL) - 1st iteration
+#### 2.0 ASCII Line Art 
+#### 3.0 Raymarched Clouds
+#### 4.0 Raymarched 4D Environment
+#### 5.0 Snowstorm System
+#### 6.0 Hypercasual Concept Pitches
+#### 7.0 Retro Shader
+#### 8.0 Pixel Art
+#### 9.0 VFX Graph in Unity
 * The basic idea was to draw transparent lines originating radially outwards from a sprite with negligible separation to give a sense of light coming out.
 * I used the Unity's low level [Graphics Library (gl)](https://docs.unity3d.com/ScriptReference/GL.html) to draw lines between two points.
 * The raycast loop formulated- <br>
