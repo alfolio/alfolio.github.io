@@ -3,7 +3,7 @@ layout: post
 title: FIEA Technical Artist Portfolio
 date: 2022-11-03 11:00:00
 description: this blog shall contain some of my favorite pieces of code/artwork that I'd be submitting for my Technical Artist Portfolio (for FIEA)!
-tags: unity3d 2dlighting brackeys
+tags: unity3d unreal-engine FIEA tech-art
 categories: blog
 ---
 
@@ -14,12 +14,47 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
         {% include figure.html path="assets/img/FIEA_PORTFOLIO.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
-<div class="caption">
-    Two Opposites Logo
-</div>
 
 #### 1.0 2D Lighting System - Unity
-Upon initial analysis, we decided that the atmosphere should be given the most priority while developing this game. And the visual appeal of the game played a significant role in that. Back when we started working on this project, Unity didn't have any rendering pipeline that supported 2D lighting. So my task was to develop a 2D lighting system for the game.
+* While competing for the Brackeys Game Jam 2021, we decided to make a top-down atmospheric 2D game. 
+* Back when we started working on this project, Unity didn’t have any rendering pipeline that supported 2D lighting, so I developed my own lighting system for it.
+* The detailed documentation and source code can be found [here](https://makra.wtf/docs/2022/two-opoosites/).
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/2dlightsys.gif" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    The first iteration
+</div>
+
+* The first iteration uses the Unity’s low level [Graphics Library (gl)](https://docs.unity3d.com/ScriptReference/GL.html) to draw rays emerging from the player.
+* An Unlit Shader that supported both transparency and vertex colors is used as the rays material to make the light rays feel natural.
+* The environment is scripted to react to the lighting.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/2dmeshlightsys.gif" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    The second iteration (optimized)
+</div>
+
+* The previous method of lighting was very inefficient with time complexity of O(n) as the loop had to run 3600 times every frame with a step size of 0.1.
+* This issue was solved by detecting the edges of nearby objects and casting rays at them and then filling the space by generating mesh between them.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/2oppingame.gif" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    In-game look
+</div>
+
+* This how the lighting finally looked in the game with some post-processing thrown on the top of it.
 
 #### 2.0 ASCII Line Art 
 #### 3.0 Raymarched Clouds
@@ -29,6 +64,7 @@ Upon initial analysis, we decided that the atmosphere should be given the most p
 #### 7.0 Retro Shader
 #### 8.0 Pixel Art
 #### 9.0 VFX Graph in Unity
+#### 10.0 Non Euclidean Worlds
 * The basic idea was to draw transparent lines originating radially outwards from a sprite with negligible separation to give a sense of light coming out.
 * I used the Unity's low level [Graphics Library (gl)](https://docs.unity3d.com/ScriptReference/GL.html) to draw lines between two points.
 * The raycast loop formulated- <br>
