@@ -22,7 +22,7 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/2dlightsys.gif" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/2dlightsys.gif" title="The first iteration" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -35,7 +35,7 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/2dmeshlightsys.gif" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/2dmeshlightsys.gif" title="The second iteration (optimized)" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -43,11 +43,11 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
 </div>
 
 * The previous method of lighting was very inefficient with time complexity of O(n) as the loop had to run 3600 times every frame with a step size of 0.1.
-* This issue was solved by detecting the edges of nearby objects and casting rays at them and then filling the space by generating mesh between them.
+* This issue was solved by detecting the edges of nearby objects and casting rays at them and then filling the space by generating mesh between them in the second iteration.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/2oppingame.gif" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/2oppingame.gif" title="In-game look" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
@@ -56,7 +56,45 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
 
 * This how the lighting finally looked in the game with some post-processing thrown on the top of it.
 
-#### 2.0 ASCII Line Art 
+#### 2.0 ASCII Line Art
+* After getting an experience as a tech artist at FIEA this summer, I was pretty sure this was the track that I'd be applying to.
+* Just to provide a testimony to it, I decided to make ASCII Line art for all professors and mentors this Teacher's Day.
+* I designed 52 of these in total and made one for Chris Roda, Rick Hall, and Ron Weaver sir as well.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/CHRIS_SIR.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+        <div class="caption">
+        Chris Sir
+        </div>
+    </div>    
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RICK_SIR.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+        <div class="caption">
+        Rick Sir
+        </div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/RON_SIR.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+        <div class="caption">
+        Ron Sir
+        </div>
+    </div>     
+</div>
+
+* These were made using [p5js] by detecting changes in the overall RGB values of different parts of images
+* If you zoom onto the images (by clicking on them), you'll find out that the pixels of the images are converted into letters of the name of the person that it's made for.
+* Many of these images were converted into DXF format and engraved on acrylic sheets to be gifted to the professors.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/ascii_engrave.png" title="Engraved Images" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    Engraved Images
+</div>
+
 #### 3.0 Raymarched Clouds
 #### 4.0 Raymarched 4D Environment
 #### 5.0 Snowstorm System
