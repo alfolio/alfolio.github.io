@@ -247,6 +247,29 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
 
 #### 10.0 Non Euclidean Worlds in Unity
 
+* I worked upon various Non-Eucledian world simulations inside of Unity, especially after CodeParade announced that [it's technically impossible to develop Non-Eucledian worlds in Unity without low level access to its Rendering Engine](https://youtu.be/kEB11PQ9Eo8?t=233).
+* The first simulation consisted of cameras rendering over a render texture in the opening of a tunnel and colliders that teleported the player between different worlds seamlessly offering a non euclidean illusion.
+
+<div class="embed-responsive embed-responsive-16by9 rounded z-depth-1-half" style="width: auto;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Jv5gQzI1xhk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+* The next two simulations used multiple intersecting single-sided planes instead of a 3d mesh to give a non euclidean look.
+
+<div class="row">
+    <div class="embed-responsive embed-responsive-16by9 rounded z-depth-1-half" style="width: auto;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/wi1RoQJWHbk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="caption">
+        Non-Euclidean World
+        </div>
+    </div>    
+    <div class="embed-responsive embed-responsive-16by9 rounded z-depth-1-half" style="width: auto;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/4zfHbw6GRes" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="caption">
+        Game Jam 2020 AD trailer
+        </div>
+    </div>      
+</div>
 
 #### 11.0 Terrain Sculpting - Map of India for AFPS
 * I was leading a team of 25 individuals to develop an Indian themed battle royale game.
@@ -266,4 +289,4 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
 <div class="embed-responsive embed-responsive-16by9 rounded z-depth-1-half" style="width: auto;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/n17XMTDp_Ns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<br>
+
