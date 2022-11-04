@@ -234,6 +234,16 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
 </div>
 
 #### 9.0 VFX Graph in Unity
+
+* I had to make a theme reveal video for a [Game Jam](https://itch.io/jam/gamejam-2020-ad) that my college was hosting. 
+* I decided to utilize this opportunity and learn VFX graphs in Unity. 
+* VFX graph help simulate over a million particles in real-time as they use the parallel processing capabilities of GPU unlike the default particle system that runs on CPU.
+* Everything that you see in this video is made out of '2020', which is the theme for the JAM itself.
+
+<div class="embed-responsive embed-responsive-16by9 rounded z-depth-1-half" style="width: auto;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kPlAOdrKgbw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 #### 10.0 Non Euclidean Worlds
 #### 11.0 Terrain Sculpting - Map of India for AFPS
 * The basic idea was to draw transparent lines originating radially outwards from a sprite with negligible separation to give a sense of light coming out.
