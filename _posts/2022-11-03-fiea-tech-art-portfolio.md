@@ -201,7 +201,9 @@ function draw() {
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/SnowStormFinal.gif" title="Snowstorm System Final In-Game Look" class="img-fluid rounded z-depth-1" zoomable=true %}
+        <video class="video-fluid rounded z-depth-1" autoplay muted loop>
+            <source src="../../../assets/img/SnowStormFinal.mp4" type="video/mp4">
+        </video>
     </div>
 </div>
 <div class="caption">
