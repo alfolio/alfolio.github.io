@@ -130,6 +130,17 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
     Glowing Pixel Arts
 </div>
 
+* Most of the sprites were converted into sprite sheets to animate the sprites with small variation in each slice of the sprite sheet.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/Doge_Anims_PA.png" title="Animation Sprite Sheets" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    Animation Sprite Sheets
+</div>
+
 #### 9.0 VFX Graph in Unity
 #### 10.0 Non Euclidean Worlds
 * The basic idea was to draw transparent lines originating radially outwards from a sprite with negligible separation to give a sense of light coming out.
