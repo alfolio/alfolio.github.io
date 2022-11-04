@@ -140,7 +140,7 @@ function draw() {
 #### 3.0 Raymarched Clouds
 * While working on Human Canon prototype for CrazyLabs, I came across the classic problem of optimizing volumetric clouds for low-end devices (especially mobile).
 * Upon some pondering over the internet, I came across this [video](https://youtu.be/4QOcCGI6xOU) about raymarched clouds by Sebastian Lague.
-* This video eventually drew my attention towards raymarching, and eventually I wrote my own raymarcher for Unity. You can find the project [here](https://github.com/aniketrajnish/Raymarching-Engine-Unity). The HLSL files can be found [here](https://github.com/aniketrajnish/Raymarching-Engine-Unity/tree/main/Assets/Shaders).
+* This video eventually drew my attention towards raymarching, and eventually I wrote my own raymarcher for Unity. You can find the project [here](https://github.com/aniketrajnish/Raymarching-Engine-Unity). The HLSL (Shader) files can be found [here](https://github.com/aniketrajnish/Raymarching-Engine-Unity/tree/main/Assets/Shaders).
 * Further, I followed [this article](https://shaderbits.com/blog/creating-volumetric-ray-marcher) about making raymarched volumetric clouds in Unreal engine to develop my own version of the same in Unity.
 
 <div class="row">
