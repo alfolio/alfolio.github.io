@@ -96,7 +96,26 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
 </div>
 
 #### 3.0 Raymarched Clouds
+* While working on Human Canon prototype for CrazyLabs, I came across the classic problem of optimizing volumetric clouds for low-end devices (especially mobile).
+* Upon some pondering over the internet, I came across this [video](https://youtu.be/4QOcCGI6xOU) about raymarched clouds by Sebastian Lague.
+* This video eventually drew my attention towards raymarching, and eventually I wrote my own raymarcher for Unity. You can find the project [here](https://github.com/aniketrajnish/Raymarching-Engine-Unity).
+* Further, I followed [this article](https://shaderbits.com/blog/creating-volumetric-ray-marcher) about making raymarched volumetric clouds in Unreal engine to develop my own version of the same in Unity.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <video class="video-fluid rounded z-depth-1" autoplay muted loop>
+            <source src="../../../assets/img/AYWS_fin.mp4" type="video/mp4">
+        </video>
+    </div>
+</div>
+<div class="caption">
+    Raymarched Clouds in Unity
+</div>
+
+
 #### 4.0 Raymarched 4D Environment
+
+
 #### 5.0 Snowstorm System - Soul Shard
 
 * I assisted the [19 Souls on Board](https://www.19soulsonboard.com/about) team at FIEA as a technical artist this summer for their capstone project [Soul Shard](https://store.steampowered.com/app/2005820/Soul_Shard/). The game is getting processed by Steam and will be out soon!
