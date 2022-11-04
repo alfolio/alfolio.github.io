@@ -82,7 +82,49 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
     </div>     
 </div>
 
-* These were made using [p5js] by detecting changes in the overall RGB values of different parts of images
+* These were made using [p5js] by detecting changes in the overall RGB values of different parts of images.
+
+{% highlight javascript %}
+
+//text to be used in the image
+const name = 'chrisroda';
+
+function draw() {
+
+  //setting background to black
+  background(0);
+  
+  let w =  width / img.width;
+  let h =  height / img.height;
+  img.loadPixels();
+
+  //iterating through pixels and assigning letters on the basis of average rgb values
+  for (let i = 0; i < img.width; i++) {
+    for (let j = 0; j < img.height; j++) {
+      const pixelIndex = (i + j * img.width) * 4;
+      const r = img.pixels[pixelIndex + 0];
+      const g = img.pixels[pixelIndex + 1];
+      const b = img.pixels[pixelIndex + 2];
+      const avg = (r + g + b) / 3;
+      
+      noStroke();
+      fill(255);
+      
+      const len = name.length;
+      const charIndex = floor(map(avg,0,255,len,0));  
+      
+      textSize(w);
+      textAlign(CENTER, CENTER);
+
+      //edge detection (hardcoded)
+ if(avg > 100 && avg < 180)     text(name.charAt(charIndex), i * w + w * 0.5, j * h + h * 0.5);     
+      
+    }
+  }
+}
+
+{% endhighlight %}
+
 * If you zoom onto the images (by clicking on them), you'll find out that the pixels of the images are converted into letters of the name of the person that it's made for.
 * Many of these images were converted into DXF format and engraved on acrylic sheets to be gifted to the professors.
 
