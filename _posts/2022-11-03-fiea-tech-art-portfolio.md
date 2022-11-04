@@ -170,6 +170,8 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
     </div>       
 </div>
 
+* The comprehensive list and source files for all the 30 concept pitches delivered can be found [here](https://makra.wtf/projects/) by scrolling to the `concept pitches` section.
+
 #### 7.0 Retro Shader
 #### 8.0 Pixel Art - Doge to the Moon
 
