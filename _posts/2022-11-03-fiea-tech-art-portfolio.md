@@ -108,7 +108,7 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Doge Banner.png" title="All Pixel Arts" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/Doge_PA.png" title="All Pixel Arts" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
 </div>
 <div class="caption">
