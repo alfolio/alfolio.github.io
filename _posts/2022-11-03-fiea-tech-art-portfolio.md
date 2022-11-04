@@ -166,7 +166,7 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
         {% include figure.html path="assets/img/BASMR_3.png" title="Mockup" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/BASMR_3.png" title="Mockup" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/BASMR_4.png" title="Mockup" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>       
 </div>
 
@@ -243,6 +243,7 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
 <div class="embed-responsive embed-responsive-16by9 rounded z-depth-1-half" style="width: auto;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kPlAOdrKgbw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+<br>
 
 #### 10.0 Non Euclidean Worlds
 #### 11.0 Terrain Sculpting - Map of India for AFPS
