@@ -273,7 +273,7 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
 
 #### 11.0 Terrain Sculpting - Map of India for AFPS
 * I was leading a team of 25 individuals to develop an Indian themed battle royale game.
-* The top view of the map was decided to represent the Indian map.
+* The top view of the map was sculpted to represent the Indian map.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
