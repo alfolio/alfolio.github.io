@@ -101,7 +101,7 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
 
 * I assisted the [19 Souls on Board](https://www.19soulsonboard.com/about) team at FIEA as a technical artist this summer for their capstone project [Soul Shard](https://store.steampowered.com/app/2005820/Soul_Shard/). The game is getting processed by Steam and will be out soon!
 * As a part of this engagement, one of my tasks was to come up with a snowstrom system for the yard area by looking at a [reference video](https://www.youtube.com/watch?v=sGkh1W5cbH4).
-* * The detailed documentation and source code can be found [here](https://makra.wtf/docs/2022/soul-shard/).
+* The detailed documentation and source code can be found [here](https://makra.wtf/docs/2022/soul-shard/).
 * To simulate a natural looking snowstorm, I decided to divide the snowstorm into three subsystems-  
   
 <div class="row">
@@ -200,6 +200,7 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
 
 #### 9.0 VFX Graph in Unity
 #### 10.0 Non Euclidean Worlds
+#### 11.0 Terrain Sculpting - Map of India for AFPS
 * The basic idea was to draw transparent lines originating radially outwards from a sprite with negligible separation to give a sense of light coming out.
 * I used the Unity's low level [Graphics Library (gl)](https://docs.unity3d.com/ScriptReference/GL.html) to draw lines between two points.
 * The raycast loop formulated- <br>
