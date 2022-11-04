@@ -15,7 +15,7 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
     </div>
 </div>
 
-#### 1.0 2D Lighting System - Unity
+#### **1.0 2D Lighting System - Unity**
 * While competing for the Brackeys Game Jam 2021.1, we decided to make a top-down atmospheric 2D game. 
 * Back when we started working on this project, Unity didn’t have any rendering pipeline that supported 2D lighting, so I developed my own lighting system for it.
 * The detailed documentation and source code can be found [here](https://makra.wtf/docs/2022/two-opoosites/).
@@ -56,7 +56,7 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
 
 * This how the lighting finally looked in the game with some post-processing thrown on the top of it. You can try it yourself [here](https://makra.itch.io/two-opposites).
 
-#### 2.0 ASCII Line Art
+#### **2.0 ASCII Line Art**
 * After getting an experience as a tech artist at FIEA this summer, I was pretty sure this was the track that I'd be applying to.
 * Just to provide a testimony to it, I decided to make ASCII Line art for all professors and mentors this Teacher's Day.
 * I designed 52 of these in total and made one for Chris Roda, Rick Hall, and Ron Weaver sir as well.
@@ -138,7 +138,7 @@ function draw() {
     Engraved Images
 </div>
 
-#### 3.0 Raymarched Clouds
+#### **3.0 Raymarched Clouds**
 * While working on Human Canon prototype for CrazyLabs, I came across the classic problem of optimizing volumetric clouds for low-end devices (especially mobile).
 * Upon some pondering over the internet, I came across this [video](https://youtu.be/4QOcCGI6xOU) about raymarched clouds by Sebastian Lague.
 * This video eventually drew my attention towards raymarching, and eventually I wrote my own raymarcher for Unity. You can find the project [here](https://github.com/aniketrajnish/Raymarching-Engine-Unity). The HLSL (Shader) files can be found [here](https://github.com/aniketrajnish/Raymarching-Engine-Unity/tree/main/Assets/Shaders).
@@ -156,7 +156,7 @@ function draw() {
 </div>
 
 
-#### 4.0 Raymarched 4D Environment
+#### **4.0 Raymarched 4D Environment**
 * I further extended the raymarching engine to render 3D sections of Four-dimensional objects like HyperCube, HyperSphere and DuoCylinder.
 
 <div class="row">
@@ -170,7 +170,7 @@ function draw() {
     Raymarched 4D Objects in Unity
 </div>
 
-#### 5.0 Snowstorm System - Soul Shard
+#### **5.0 Snowstorm System - Soul Shard**
 * I assisted the [19 Souls on Board](https://www.19soulsonboard.com/about) team at FIEA as a technical artist this summer for their capstone project [Soul Shard](https://store.steampowered.com/app/2005820/Soul_Shard/). The game is getting processed by Steam and will be out soon!
 * As a part of this engagement, one of my tasks was to come up with a snowstrom system for the yard area by looking at a [reference video](https://www.youtube.com/watch?v=sGkh1W5cbH4).
 * The detailed documentation and source code can be found [here](https://makra.wtf/docs/2022/soul-shard/).
@@ -208,7 +208,7 @@ function draw() {
     Snowstorm System Final In-Game Look
 </div>
 
-#### 6.0 Hypercasual Concept Pitches
+#### **6.0 Hypercasual Concept Pitches**
 * As a part of the PPP (Pay-Per-Prototype) deal by CrazyLabs I was expected to deliver Concept Pitches of various Hypercasual ideas, the best ones of these were approved by them for me to develop.
 * To make the art mockups for these, I used Procreate on iPad.
 * These are the mockups for the game Tilt Paint (the original concept pitch can be found [here](https://makra.wtf/assets/pdf/TiltPaint.pdf))-
@@ -244,7 +244,7 @@ function draw() {
 
 * The comprehensive list and source files for all the 30 concept pitches delivered can be found [here](https://makra.wtf/projects/) by scrolling to the `concept pitches` section.
 
-#### 7.0 Retro Shader & Post Processing - Are Ya Winning, Son?
+#### **7.0 Retro Shader & Post Processing - Are Ya Winning, Son?**
 * While participating in the GMTK Game Jam 2020, we were working on a retro-styled game where the AI won't let you win. 
 * To add to the retro theme we decided to use shaders and post processing effects in such a way that the game feels as if its being played on a retro TV.
 
@@ -259,7 +259,7 @@ function draw() {
 * This was achieved by using Post-Processing & a distorted render texture layered on top of it.
 * You can play the game [here](https://makra.itch.io/are-ya-winning-son) and watch its devlog [here](https://youtu.be/Anhjc7sRoFc).
 
-#### 8.0 Pixel Art - Doge to the Moon
+#### **8.0 Pixel Art - Doge to the Moon**
 * While competing for the Opera GX Game Jam, I worked upon Pixel Art of various characters of our game Doge to The Moon. 
 * All of these Pixel Arts were made using the GameMaker Studio 2's Sprite Editor.
 * You can try the game [here](https://gamejolt.com/games/doge2themoon/636263).
@@ -318,7 +318,7 @@ function draw() {
     </div>     
 </div>
 
-#### 9.0 VFX Graph in Unity
+#### **9.0 VFX Graph in Unity**
 * I had to make a theme reveal video for a [Game Jam](https://itch.io/jam/gamejam-2020-ad) that my college was hosting. 
 * I decided to utilize this opportunity and learn VFX graphs in Unity. 
 * VFX graph help simulate over a million particles in real-time as they use the parallel processing capabilities of GPU unlike the default particle system that runs on CPU.
@@ -329,7 +329,7 @@ function draw() {
 </div>
 <br>
 
-#### 10.0 Non Euclidean Worlds in Unity
+#### **10.0 Non Euclidean Worlds in Unity**
 * I worked upon various Non-Eucledian world simulations inside of Unity, especially after CodeParade announced that [it's technically impossible to develop Non-Eucledian worlds in Unity without low level access to its Rendering Engine](https://youtu.be/kEB11PQ9Eo8?t=233).
 * The first simulation consisted of cameras rendering over a render texture in the opening of a tunnel and colliders that teleported the player between different worlds seamlessly offering a non euclidean illusion.
 
@@ -350,7 +350,7 @@ function draw() {
 </div>
 <br>
 
-#### 11.0 Terrain Sculpting - Map of India for AFPS
+#### **11.0 Terrain Sculpting - Map of India for AFPS**
 * I was leading a team of 25 individuals to develop an Indian themed battle royale game.
 * The top view of the map was sculpted to represent the Indian map.
 
