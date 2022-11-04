@@ -100,7 +100,40 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
 #### 5.0 Snowstorm System - Soul Shard
 
 * I assisted the [19 Souls on Board](https://www.19soulsonboard.com/about) team at FIEA as a technical artist this summer for their capstone project [Soul Shard](https://store.steampowered.com/app/2005820/Soul_Shard/). The game is getting processed by Steam and will be out soon!
-* As a part of this engagement, one of
+* As a part of this engagement, one of my tasks was to come up with a snowstrom system for the yard area by looking at a [reference video](https://www.youtube.com/watch?v=sGkh1W5cbH4).
+* To simulate a natural looking snowstorm, I decided to divide the snowstorm into three subsystems-  
+  
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/Snow1.gif" title="A Snow Subsystem" class="img-fluid rounded z-depth-1" zoomable=true %}
+        <div class="caption">
+        Snow Subsystem
+        </div>
+    </div>    
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/WindPart.gif" title="A Wind Subsystem" class="img-fluid rounded z-depth-1" zoomable=true %}
+        <div class="caption">
+        A Wind Subsystem
+        </div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/FogEH.gif" title="A Fog Subsystem" class="img-fluid rounded z-depth-1" zoomable=true %}
+        <div class="caption">
+        A Fog Subsystem
+        </div>
+    </div>     
+</div>
+
+* Putting these together after proper scaling gave the following result- 
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/SnowStormFinal.gif" title="Snowstorm System Final In-Game Look" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    Snowstorm System Final In-Game Look
+</div>
 
 #### 6.0 Hypercasual Concept Pitches
 #### 7.0 Retro Shader
