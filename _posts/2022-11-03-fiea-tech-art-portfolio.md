@@ -253,6 +253,7 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
 <div class="embed-responsive embed-responsive-16by9 rounded z-depth-1-half" style="width: auto;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Jv5gQzI1xhk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+<br>
 
 * The next two simulations used multiple intersecting single-sided planes instead of a 3d mesh to give a non euclidean look.
 
