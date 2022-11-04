@@ -100,7 +100,7 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
 #### 5.0 Snowstorm System - Soul Shard
 
 * I assisted the [19 Souls on Board](https://www.19soulsonboard.com/about) team at FIEA as a technical artist this summer for their capstone project [Soul Shard](https://store.steampowered.com/app/2005820/Soul_Shard/). The game is getting processed by Steam and will be out soon!
-* As a part of this
+* As a part of this engagement, one of
 
 #### 6.0 Hypercasual Concept Pitches
 #### 7.0 Retro Shader
@@ -145,15 +145,15 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/stars_PA.png" title="Stars" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/stars_PA.png" title="Stars Section" class="img-fluid rounded z-depth-1" zoomable=true %}
         <div class="caption">
-        Stars
+        Stars Section
         </div>
     </div>    
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Back_PA.png" title="Background" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/Back_PA.png" title="Background Section" class="img-fluid rounded z-depth-1" zoomable=true %}
         <div class="caption">
-        Background
+        Background Section
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
