@@ -146,7 +146,7 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
         {% include figure.html path="assets/img/TP_1.png" title="Mockup" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>    
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/TP_2.png" title="Mockup" class="img-fluid rounded z-depth-1" zoomable=true %}\
+        {% include figure.html path="assets/img/TP_2.png" title="Mockup" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/TP_3.png" title="Mockup" class="img-fluid rounded z-depth-1" zoomable=true %}
