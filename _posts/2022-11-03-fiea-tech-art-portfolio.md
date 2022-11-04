@@ -114,7 +114,18 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
 
 
 #### 4.0 Raymarched 4D Environment
+* I further extended the raymarching engine to render 3D sections of Four-dimensional objects like HyperCube, HyperSphere and DuoCylinder.
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <video class="video-fluid rounded z-depth-1" autoplay muted loop>
+            <source src="../../../assets/img/Raymarch_4d.mp4" type="video/mp4">
+        </video>
+    </div>
+</div>
+<div class="caption">
+    Raymarched 4D Objects in Unity
+</div>
 
 #### 5.0 Snowstorm System - Soul Shard
 * I assisted the [19 Souls on Board](https://www.19soulsonboard.com/about) team at FIEA as a technical artist this summer for their capstone project [Soul Shard](https://store.steampowered.com/app/2005820/Soul_Shard/). The game is getting processed by Steam and will be out soon!
