@@ -172,7 +172,22 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
 
 * The comprehensive list and source files for all the 30 concept pitches delivered can be found [here](https://makra.wtf/projects/) by scrolling to the `concept pitches` section.
 
-#### 7.0 Retro Shader
+#### 7.0 Retro Shader & Post Processing - Are Ya Winning, Son?
+
+* While participating in the GMTK Game Jam 2020, we were working on a retro-styled game where the AI won't let you win. 
+* To add to the retro theme we decided to use shaders and post processing effects in such a way that the game feels as if its being played on a retro TV.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <video class="video-fluid rounded z-depth-1" autoplay muted loop>
+            <source src="../../../assets/img/AYWS_fin.mp4" type="video/mp4">
+        </video>
+    </div>
+</div>
+
+* This was achieved by using Post-Processing effects & a low-res distorted render texture layered on top of it.
+* You can play the game [here](https://makra.itch.io/are-ya-winning-son) and watch its devlog [here](https://youtu.be/Anhjc7sRoFc).
+
 #### 8.0 Pixel Art - Doge to the Moon
 
 * While competing for the Opera GX Game Jam, I worked upon Pixel Art of various characters of our game Doge to The Moon. 
