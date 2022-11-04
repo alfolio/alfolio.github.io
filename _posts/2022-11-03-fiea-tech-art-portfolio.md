@@ -63,19 +63,19 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/CHRIS_SIR.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/CHRIS_SIR.png" title="Chris Sir" class="img-fluid rounded z-depth-1" zoomable=true %}
         <div class="caption">
         Chris Sir
         </div>
     </div>    
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RICK_SIR.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/RICK_SIR.png" title="Rick Sir" class="img-fluid rounded z-depth-1" zoomable=true %}
         <div class="caption">
         Rick Sir
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/RON_SIR.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/RON_SIR.png" title="Ron Sir" class="img-fluid rounded z-depth-1" zoomable=true %}
         <div class="caption">
         Ron Sir
         </div>
@@ -139,6 +139,29 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
 </div>
 <div class="caption">
     Animation Sprite Sheets
+</div>
+
+* Apart from these sprites, I also designed the background images (starts and the space) and made them scroll vertically at different speeds to give a parallax effect.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/stars_PA.png" title="Stars" class="img-fluid rounded z-depth-1" zoomable=true %}
+        <div class="caption">
+        Stars
+        </div>
+    </div>    
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/Back_PA.png" title="Background" class="img-fluid rounded z-depth-1" zoomable=true %}
+        <div class="caption">
+        Background
+        </div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/Doge_Final.gif" title="Final In-Game Look" class="img-fluid rounded z-depth-1" zoomable=true %}
+        <div class="caption">
+        Final In-Game Look
+        </div>
+    </div>     
 </div>
 
 #### 9.0 VFX Graph in Unity
