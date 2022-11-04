@@ -137,6 +137,39 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
 </div>
 
 #### 6.0 Hypercasual Concept Pitches
+* As a part of the PPP (Pay-Per-Prototype) deal by CrazyLabs I was expected to deliver Concept Pitches of various Hypercasual ideas, the best ones of these were approved by them for me to develop.
+* To make the art mockups for these, I used Procreate on iPad.
+* These are the mockups for the game Tilt Paint (the original concept pitch can be found [here](https://makra.wtf/assets/pdf/TiltPaint.pdf))-
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/TP_1.png" title="Mockup" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>    
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/TP_2.png" title="Mockup" class="img-fluid rounded z-depth-1" zoomable=true %}\
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/TP_3.png" title="Mockup" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>     
+</div>
+
+* Some mockups were rendered in Blender too. The for instance the mockup of Body Crack ASMR (the original concept pitch can be found [here](https://makra.wtf/assets/pdf/BodyCrackASMR.pdf))- 
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/BASMR_1.png" title="Mockup" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>    
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/BASMR_2.png" title="Mockup" class="img-fluid rounded z-depth-1" zoomable=true %}\
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/BASMR_3.png" title="Mockup" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/BASMR_3.png" title="Mockup" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>       
+</div>
+
 #### 7.0 Retro Shader
 #### 8.0 Pixel Art - Doge to the Moon
 
