@@ -97,12 +97,16 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
 
 #### 3.0 Raymarched Clouds
 #### 4.0 Raymarched 4D Environment
-#### 5.0 Snowstorm System
+#### 5.0 Snowstorm System - Soul Shard
+
+* I assisted the [19 Souls on Board](https://www.19soulsonboard.com/about) team at FIEA as a technical artist this summer for their capstone project [Soul Shard](https://store.steampowered.com/app/2005820/Soul_Shard/). The game is getting processed by Steam and will be out soon!
+* As a part of this
+
 #### 6.0 Hypercasual Concept Pitches
 #### 7.0 Retro Shader
-#### 8.0 Pixel Art
+#### 8.0 Pixel Art - Doge to the Moon
 
-* While competing for the Opera GX Game Jam, I worked upon Pixel Art of various characters of our game Doge 2 The Moon. 
+* While competing for the Opera GX Game Jam, I worked upon Pixel Art of various characters of our game Doge to The Moon. 
 * All of these Pixel Arts were made using the GameMaker Studio 2's Sprite Editor.
 * You can try the game [here](https://gamejolt.com/games/doge2themoon/636263).
 
@@ -113,6 +117,17 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
 </div>
 <div class="caption">
     All Pixel Arts
+</div>
+
+* All of these assets had their glowing counterpart aswell, to mimic the animation of getting hit.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/Doge_Hit_PA.png" title="Glowing Pixel Arts" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    Glowing Pixel Arts
 </div>
 
 #### 9.0 VFX Graph in Unity
