@@ -204,7 +204,7 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
     </div>
 </div>
 
-* This was achieved by using Post-Processing effects & a low-res distorted render texture layered on top of it.
+* This was achieved by using Post-Processing & a distorted render texture layered on top of it.
 * You can play the game [here](https://makra.itch.io/are-ya-winning-son) and watch its devlog [here](https://youtu.be/Anhjc7sRoFc).
 
 #### 8.0 Pixel Art - Doge to the Moon
