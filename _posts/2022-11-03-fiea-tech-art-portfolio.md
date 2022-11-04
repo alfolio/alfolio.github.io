@@ -117,7 +117,6 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
 
 
 #### 5.0 Snowstorm System - Soul Shard
-
 * I assisted the [19 Souls on Board](https://www.19soulsonboard.com/about) team at FIEA as a technical artist this summer for their capstone project [Soul Shard](https://store.steampowered.com/app/2005820/Soul_Shard/). The game is getting processed by Steam and will be out soon!
 * As a part of this engagement, one of my tasks was to come up with a snowstrom system for the yard area by looking at a [reference video](https://www.youtube.com/watch?v=sGkh1W5cbH4).
 * The detailed documentation and source code can be found [here](https://makra.wtf/docs/2022/soul-shard/).
@@ -192,7 +191,6 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
 * The comprehensive list and source files for all the 30 concept pitches delivered can be found [here](https://makra.wtf/projects/) by scrolling to the `concept pitches` section.
 
 #### 7.0 Retro Shader & Post Processing - Are Ya Winning, Son?
-
 * While participating in the GMTK Game Jam 2020, we were working on a retro-styled game where the AI won't let you win. 
 * To add to the retro theme we decided to use shaders and post processing effects in such a way that the game feels as if its being played on a retro TV.
 
@@ -208,7 +206,6 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
 * You can play the game [here](https://makra.itch.io/are-ya-winning-son) and watch its devlog [here](https://youtu.be/Anhjc7sRoFc).
 
 #### 8.0 Pixel Art - Doge to the Moon
-
 * While competing for the Opera GX Game Jam, I worked upon Pixel Art of various characters of our game Doge to The Moon. 
 * All of these Pixel Arts were made using the GameMaker Studio 2's Sprite Editor.
 * You can try the game [here](https://gamejolt.com/games/doge2themoon/636263).
@@ -268,7 +265,6 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
 </div>
 
 #### 9.0 VFX Graph in Unity
-
 * I had to make a theme reveal video for a [Game Jam](https://itch.io/jam/gamejam-2020-ad) that my college was hosting. 
 * I decided to utilize this opportunity and learn VFX graphs in Unity. 
 * VFX graph help simulate over a million particles in real-time as they use the parallel processing capabilities of GPU unlike the default particle system that runs on CPU.
@@ -280,7 +276,6 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
 <br>
 
 #### 10.0 Non Euclidean Worlds in Unity
-
 * I worked upon various Non-Eucledian world simulations inside of Unity, especially after CodeParade announced that [it's technically impossible to develop Non-Eucledian worlds in Unity without low level access to its Rendering Engine](https://youtu.be/kEB11PQ9Eo8?t=233).
 * The first simulation consisted of cameras rendering over a render texture in the opening of a tunnel and colliders that teleported the player between different worlds seamlessly offering a non euclidean illusion.
 
@@ -319,4 +314,3 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
 <div class="embed-responsive embed-responsive-16by9 rounded z-depth-1-half" style="width: auto;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/n17XMTDp_Ns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-
