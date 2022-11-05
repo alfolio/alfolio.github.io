@@ -56,7 +56,7 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
 
 * This how the lighting finally looked in the game with some post-processing thrown on the top of it. You can try it yourself [here](https://makra.itch.io/two-opposites).
 
-#### **2.0 ASCII Line Art**
+#### **2.0 ASCII Line Art - p5js**
 * After getting an experience as a tech artist at FIEA this summer, I was pretty sure this was the track that I'd be applying to.
 * Just to provide a testimony to it, I decided to make ASCII Line art for all professors and mentors this Teacher's Day.
 * I designed 52 of these in total and made one for Chris Roda, Rick Hall, and Ron Weaver sir as well.
@@ -82,7 +82,7 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
     </div>     
 </div>
 
-* These were made using [p5js] by detecting changes in the overall RGB values of different parts of images.
+* These were made using [p5js](https://p5js.org/) by detecting changes in the overall RGB values of different parts of images.
 
 {% highlight javascript %}
 
