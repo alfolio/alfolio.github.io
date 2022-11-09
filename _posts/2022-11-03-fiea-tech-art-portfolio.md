@@ -210,9 +210,9 @@ function draw() {
     Snowstorm System Final In-Game Look
 </div>
 
-#### **6.0 Hypercasual Concept Pitches**
+#### **6.0 Digital Art - Hypercasual Concept Pitches**
 * As a part of the PPP (Pay-Per-Prototype) deal by CrazyLabs I was expected to deliver Concept Pitches of various Hypercasual ideas, the best ones of these were approved by them for me to develop.
-* To make the art mockups for these, I used Procreate on iPad.
+* To make the digital art mockups for these, I used Procreate on iPad.
 * These are the mockups for the game Tilt Paint (the original concept pitch can be found [here](https://makra.wtf/assets/pdf/TiltPaint.pdf))-
 
 <div class="row">
