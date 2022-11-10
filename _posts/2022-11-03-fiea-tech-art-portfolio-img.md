@@ -1,7 +1,7 @@
 ---
 layout: post
 title: FIEA Technical Artist Portfolio (Images Only)
-date: 2022-11-03 11:00:00
+date: 2022-11-10 11:00:00
 description: this blog shall contain some of my favorite pieces of code/artwork that I'd be submitting for my Technical Artist Portfolio (for FIEA)!
 tags: unity3d unreal-engine FIEA tech-art
 categories: blog
