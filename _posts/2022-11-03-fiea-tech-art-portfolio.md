@@ -170,6 +170,31 @@ function draw() {
     Raymarched 4D Objects in Unity
 </div>
 
+* The 4D shape distance functions—
+
+{% highlight HLSL %}
+
+//Hypercube
+float Hypercube(float4 p, float4 b)
+{
+    float4 d = abs(p) - b;
+	return min(max(d.x,max(d.y,max(d.z,d.w))),0.0) + length(max(d,0.0));
+}
+
+//Hypershpere
+float Hypersphere(float4 p, float s)
+{
+    return length(p) - s;
+}
+
+//Duo Cylinder
+float DuoCylinder( float4 p, float2 r1r2) {
+  float2 d = abs(float2(length(p.xz),length(p.yw))) - r1r2;
+  return min(max(d.x,d.y),0.) + length(max(d,0.));
+}
+
+{% endhighlight %}
+
 #### **5.0 Snowstorm System - Soul Shard**
 * I assisted the [19 Souls on Board](https://www.19soulsonboard.com/about) team at FIEA as a technical artist this summer for their capstone project [Soul Shard](https://store.steampowered.com/app/2005820/Soul_Shard/). The game is getting processed by Steam and will be out soon!
 * As a part of this engagement, one of my tasks was to come up with a snowstorm system for the yard area by looking at a [reference video](https://www.youtube.com/watch?v=sGkh1W5cbH4).
