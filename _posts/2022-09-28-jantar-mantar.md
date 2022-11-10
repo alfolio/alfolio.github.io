@@ -124,6 +124,24 @@ In the next week we were assigned the task to come up with labelled Jantar Manta
     </div>
 </div>
 
+#### 2.5 Recreating paper prototype in Blender
+- Using the drawings and dimensions in paper prototype we created the parts of Samrat Yantra.
+- As we created each part individually and later scaled them back, the final model was not in proportion.
+- The problem was then solved using accurate dimensions calculated from the pdf.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/251.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}        
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/252.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}        
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/253.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}        
+    </div>      
+</div>
+
+
 #### 3.0 Week - 3
 
 In this week we were expected to start working the UX that our project had to offer.
