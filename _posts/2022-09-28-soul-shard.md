@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Work at FIEA - Documented!
+title: Work at FIEA (Summer) - Documented!
 date: 2022-09-28 11:00:00
 description: documentation & logs of work done on Soul Shard at FIEA!
 tags: unrealengine4 fiea soulshard
