@@ -257,19 +257,14 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
     Cameras rendering over a render texture & Portals
 </div>
 
-
 <div class="embed-responsive embed-responsive-16by9 rounded z-depth-1-half" style="width: auto;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wi1RoQJWHbk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 <br>
-<div class="caption">
-    Using multiple intersecting single-sided planes instead of a 3D mesh 
-</div>
 
 <div class="embed-responsive embed-responsive-16by9 rounded z-depth-1-half" style="width: auto;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4zfHbw6GRes" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-<br>
 <div class="caption">
     Using multiple intersecting single-sided planes instead of a 3D mesh 
 </div>
