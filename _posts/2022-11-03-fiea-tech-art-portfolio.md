@@ -342,14 +342,15 @@ function draw() {
 
 * The next two simulations used multiple intersecting single-sided planes instead of a 3d mesh to give a non euclidean look.
 
-<div class="embed-responsive embed-responsive-16by9 rounded z-depth-1-half" style="width: auto;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wi1RoQJWHbk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="d-flex">
+  <div class="embed-responsive embed-responsive-16by9 mr-3 rounded z-depth-1-half" style="width: 50%;">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/wi1RoQJWHbk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+  </div>
+  <div class="embed-responsive embed-responsive-16by9 rounded z-depth-1-half" style="width: 50%;">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/4zfHbw6GRes" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+  </div>
 </div>
-<br>
 
-<div class="embed-responsive embed-responsive-16by9 rounded z-depth-1-half" style="width: auto;">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4zfHbw6GRes" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
 <br>
 
 #### **11.0 Terrain Sculpting - Map of India for AFPS**
