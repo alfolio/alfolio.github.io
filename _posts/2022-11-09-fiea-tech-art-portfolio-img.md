@@ -184,7 +184,7 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
     </div>
 </div>
 <div class="caption">
-    Retro TV look
+    CRT TV look
 </div>
 
 #### **8.0 Pixel Art - Doge to the Moon**

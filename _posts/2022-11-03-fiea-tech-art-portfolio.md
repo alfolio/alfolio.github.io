@@ -16,7 +16,7 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
 </div>
 
 #### **1.0 2D Lighting System - Unity**
-* While competing for the Brackeys Game Jam 2021.1, we decided to make a top-down atmospheric 2D game. 
+* While competing for the [Brackeys Game Jam 2021.1](https://itch.io/jam/brackeys-5), we decided to make a top-down atmospheric 2D game. 
 * Back when we started working on this project, Unity didn’t have any rendering pipeline that supported 2D lighting, so I developed my own lighting system for it.
 * The detailed documentation and source code can be found [here](https://makra.wtf/docs/2022/two-opoosites/).
 
@@ -42,7 +42,7 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
     The second iteration (optimized)
 </div>
 
-* The previous method of lighting was very inefficient with time complexity of O(n) as the loop had to run 3600 times every frame with a step size of 0.1.
+* The previous method of lighting was very inefficient with time complexity of `O(n)` as the loop had to run 3600 times every frame with a step size of 0.1.
 * This issue was solved by detecting the edges of nearby objects and casting rays at them and then filling the space by generating mesh between them in the second iteration.
 
 <div class="row">
@@ -59,7 +59,7 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
 #### **2.0 ASCII Line Art - p5js**
 * After getting an experience as a tech artist at FIEA this summer, I was pretty sure this was the track that I'd be applying to.
 * Just to provide a testimony to it, I decided to make ASCII Line art for all professors and mentors this Teacher's Day.
-* I designed 52 of these in total and made one for Chris Roda, Rick Hall, and Ron Weaver sir as well.
+* I designed 52 of these in total and made one for Prof. Chris Roda, Prof. Rick Hall, and Prof. Ron Weaver as well.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -172,9 +172,9 @@ function draw() {
 
 #### **5.0 Snowstorm System - Soul Shard**
 * I assisted the [19 Souls on Board](https://www.19soulsonboard.com/about) team at FIEA as a technical artist this summer for their capstone project [Soul Shard](https://store.steampowered.com/app/2005820/Soul_Shard/). The game is getting processed by Steam and will be out soon!
-* As a part of this engagement, one of my tasks was to come up with a snowstrom system for the yard area by looking at a [reference video](https://www.youtube.com/watch?v=sGkh1W5cbH4).
+* As a part of this engagement, one of my tasks was to come up with a snowstorm system for the yard area by looking at a [reference video](https://www.youtube.com/watch?v=sGkh1W5cbH4).
 * The detailed documentation and source code can be found [here](https://makra.wtf/docs/2022/soul-shard/).
-* To simulate a natural looking snowstorm, I decided to divide the snowstorm into three subsystems-  
+* To simulate a natural looking snowstorm, I decided to divide the snowstorm into three subsystems—  
   
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -197,7 +197,7 @@ function draw() {
     </div>     
 </div>
 
-* Putting these together after proper scaling gave the following result- 
+* Putting these together after proper scaling gave the following result—
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -213,7 +213,7 @@ function draw() {
 #### **6.0 Digital Art - Hypercasual Concept Pitches**
 * As a part of the PPP (Pay-Per-Prototype) deal by CrazyLabs I was expected to deliver Concept Pitches of various Hypercasual ideas, the best ones of these were approved by them for me to develop.
 * To make the digital art mockups for these, I used Procreate on iPad.
-* These are the mockups for the game Tilt Paint (the original concept pitch can be found [here](https://makra.wtf/assets/pdf/TiltPaint.pdf))-
+* These are the mockups for the game Tilt Paint (the original concept pitch can be found [here](https://makra.wtf/assets/pdf/TiltPaint.pdf))—
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -227,7 +227,7 @@ function draw() {
     </div>     
 </div>
 
-* Some mockups were rendered in Blender too. The for instance the mockup of Body Crack ASMR (the original concept pitch can be found [here](https://makra.wtf/assets/pdf/BodyCrackASMR.pdf))- 
+* Some mockups were rendered in Blender too. The for instance the mockup of Body Crack ASMR (the original concept pitch can be found [here](https://makra.wtf/assets/pdf/BodyCrackASMR.pdf))—
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -248,7 +248,7 @@ function draw() {
 
 #### **7.0 Retro Shader & Post Processing - Are Ya Winning, Son?**
 * While participating in the GMTK Game Jam 2020, we were working on a retro-styled game where the AI won't let you win. 
-* To add to the retro theme we decided to use shaders and post processing effects in such a way that the game feels as if its being played on a retro TV.
+* To add to the retro theme we decided to use shaders and post processing effects in such a way that the game feels as if its being played on a CRT TV.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
