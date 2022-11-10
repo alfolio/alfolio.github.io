@@ -289,8 +289,6 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
 
 #### **12.0 Glowing Crack Material - Soul Shard**
 
-* I developed a material with glowing cracks governed by various parameters for Soul Shard.
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/EmissionParameter.png" title="Stars Section" class="img-fluid rounded z-depth-1" zoomable=true %}
