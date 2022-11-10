@@ -151,6 +151,9 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
     </div>     
 </div>
 
+<div class="caption">
+    Concept Pitch digital art mockup created using Procreate 
+</div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -165,6 +168,10 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/BASMR_4.png" title="Mockup" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>       
+</div>
+
+<div class="caption">
+    Concept Pitch digital art mockup created using Blender 
 </div>
 
 #### **7.0 Retro Shader & Post Processing - Are Ya Winning, Son?**
