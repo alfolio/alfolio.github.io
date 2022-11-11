@@ -308,13 +308,13 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/Coverage.gif" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
         <div class="caption">
-        Coverage
+        Changing Coverage
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/GlowIntensity.gif" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
         <div class="caption">
-        Glow Intensity
+        Changing Glow Intensity
     </div>
     </div>    
 </div>
@@ -323,13 +323,13 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/PulseIntensity.gif" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
         <div class="caption">
-        Pulse Intensity
+        Changing Pulse Intensity
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/Rate.gif" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
         <div class="caption">
-        Rate
+        Changing Rate
     </div>
     </div>    
 </div>
