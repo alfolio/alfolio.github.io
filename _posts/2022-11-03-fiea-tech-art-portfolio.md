@@ -417,6 +417,7 @@ float DuoCylinder( float4 p, float2 r1r2) {
     </div>        
 </div>
 
+* The materials properties were governed by six parameters in total—
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/Coverage.gif" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
