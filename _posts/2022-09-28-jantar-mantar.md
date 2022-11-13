@@ -317,5 +317,11 @@ In this week, we were expected to convert the Unity project into a web-based exp
 
 #### 6.2 Precise models of the Yantras
 
-
+* First, the dimensions of the model were calculated by Ajitesh.
+* The base of the model was made by Shubham using the dimensions provided by Ajitesh.
+* After referring to the PDF provided by sir, we found difficulty in coming up with precise models of the block.
+* We tried certain adjustments, scaling and fitting the side block on the base of the yantra.
+* The curves of the yantras was quite difficult to make, due to its precision levels.
+* We made the curve long enough to pass through the pyramid of the yantra while maintaining the precision standards of our model after multiple adjustments (even though they were not precise in the PDF itself)
+* The center pyramids along with the staircase was similarly designed using the iterative adjustment process mentioned above.
 
