@@ -319,9 +319,30 @@ In this week, we were expected to convert the Unity project into a web-based exp
 
 * First, the dimensions of the model were calculated by Ajitesh.
 * The base of the model was made by Shubham using the dimensions provided by Ajitesh.
-* After referring to the PDF provided by sir, we found difficulty in coming up with precise models of the block.
+* After referring to the [PDF](https://www.jantarmantar.org/resources/Projects/SY-Model/Samrat-Yantra-Model-Templates.pdf) provided by sir, we found difficulty in coming up with precise models of the block.
 * We tried certain adjustments, scaling and fitting the side block on the base of the yantra.
 * The curves of the yantras was quite difficult to make, due to its precision levels.
-* We made the curve long enough to pass through the pyramid of the yantra while maintaining the precision standards of our model after multiple adjustments (even though they were not precise in the PDF itself)
+* We made the curve long enough to pass through the pyramid of the yantra while maintaining the precision standards of our model after multiple adjustments (even though they were not precise in the [PDF](https://www.jantarmantar.org/resources/Projects/SY-Model/Samrat-Yantra-Model-Templates.pdf) itself)
 * The center pyramids along with the staircase was similarly designed using the iterative adjustment process mentioned above.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/PM1.jpg" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+        <div class="caption">
+        Model 1
+        </div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/PM2.jpg" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+        <div class="caption">
+        Model 2
+    </div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/PM3.jpg" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+        <div class="caption">
+        Model 3
+    </div>
+    </div>    
+</div>
 
