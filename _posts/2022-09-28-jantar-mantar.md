@@ -329,19 +329,19 @@ In this week, we were expected to convert the Unity project into a web-based exp
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/PM1.jpg" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
         <div class="caption">
-        Model 1
+        The Curves
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/PM2.jpg" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
         <div class="caption">
-        Model 2
+        The Center Pyramid
     </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/PM3.jpg" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
         <div class="caption">
-        Model 3
+        The Base with Side Blocks
     </div>
     </div>    
 </div>
