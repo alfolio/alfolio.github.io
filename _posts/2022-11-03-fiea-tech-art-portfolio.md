@@ -17,7 +17,7 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
 
 #### **1.0 2D Lighting System - Unity**
 * While competing for the [Brackeys Game Jam 2021.1](https://itch.io/jam/brackeys-5), we decided to make a top-down atmospheric 2D game as they were trending a lot on [itch.io](https://itch.io/) back then.
-* Back when we started working on this project, Unity didn’t have any rendering pipeline that supported 2D lighting, so I developed my own lighting system for it. This was primarily done to add to atmospheric look of the game.
+* Back when we started working on this project, Unity didn’t have any rendering pipeline that supported 2D lighting, so I developed my own lighting system for it. This was primarily done to add to the atmospheric look of the game.
 * The detailed documentation and source code can be found [here](https://makra.wtf/docs/2022/two-opoosites/).
 
 <div class="row">
@@ -30,7 +30,7 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
 </div>
 
 * The first iteration uses the Unity’s low level [Graphics Library (gl)](https://docs.unity3d.com/ScriptReference/GL.html) to draw rays emerging from the player.
-* An Unlit Shader that supported both transparency and vertex colors is used as the rays material to make the light rays feel natural.
+* An Unlit Shader that supports both transparency and vertex colors is used as the ray's material to make the light rays feel natural.
 * The environment is scripted to react to the lighting.
 
 <div class="row">
@@ -42,8 +42,8 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
     The second iteration (optimized)
 </div>
 
-* The previous method of lighting was very inefficient with time complexity of `O(n)` as the loop had to run 3600 times every frame with a step size of 0.1.
-* This issue was solved by detecting the edges of nearby objects and casting rays at them and then filling the space by generating mesh between them in the second iteration.
+* The previous lighting method was very inefficient with time complexity of `O(n)` as the loop had to run 3600 times every frame with a step size of 0.1.
+* I solved this issue by detecting the edges of nearby objects, casting rays at them, and then filling the space by generating mesh between them in the second iteration.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -54,11 +54,11 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
     In-game look
 </div>
 
-* This is how the lighting finally looked in the game with some post-processing thrown on the top of it. You can try it yourself [here](https://makra.itch.io/two-opposites).
+* This is how the lighting finally looked in the game, with some post-processing thrown on top of it. You can try it yourself [here](https://makra.itch.io/two-opposites).
 
 #### **2.0 ASCII Line Art - p5js**
-* After getting an experience as a tech artist at FIEA this summer, I was pretty sure this was the track that I'd be applying to.
-* Just to provide a testimony to it, I decided to make ASCII Line art for all professors and mentors this Teacher's Day.
+* After getting an experience as a tech artist at FIEA this summer, I was confident this was the track that I'd be applying to.
+* To provide a testimony to it, I decided to make ASCII Line art for all professors and mentors this Teacher's Day.
 * I designed 52 of these in total and made one for Prof. Chris Roda, Prof. Rick Hall, and Prof. Ron Weaver as well.
 
 <div class="row">
@@ -98,7 +98,7 @@ function draw() {
   let h =  height / img.height;
   img.loadPixels();
 
-  //iterating through pixels and assigning letters on the basis of average rgb values
+  //iterating through pixels and assigning letters based on average rgb values
   for (let i = 0; i < img.width; i++) {
     for (let j = 0; j < img.height; j++) {
       const pixelIndex = (i + j * img.width) * 4;
@@ -139,9 +139,9 @@ function draw() {
 </div>
 
 #### **3.0 Raymarched Clouds**
-* While working on Human Canon prototype for CrazyLabs, I came across the classic problem of optimizing volumetric clouds for low-end devices (especially mobile).
+* While working on Human Canon prototype for CrazyLabs, I encountered the classic problem of optimizing volumetric clouds for low-end devices (especially mobile).
 * While doing my research over the internet, I came across this [video](https://youtu.be/4QOcCGI6xOU) about raymarched clouds by Sebastian Lague.
-* This video eventually drew my attention towards raymarching, and eventually I wrote my own raymarcher for Unity. You can find the project [here](https://github.com/aniketrajnish/Raymarching-Engine-Unity). The HLSL (Shader) files can be found [here](https://github.com/aniketrajnish/Raymarching-Engine-Unity/tree/main/Assets/Shaders).
+* This video eventually drew my attention towards raymarching, and eventually, I wrote my own raymarcher for Unity. You can find the project [here](https://github.com/aniketrajnish/Raymarching-Engine-Unity). The HLSL (Shader) files can be found [here](https://github.com/aniketrajnish/Raymarching-Engine-Unity/tree/main/Assets/Shaders).
 * Further, I followed [this article](https://shaderbits.com/blog/creating-volumetric-ray-marcher) about making raymarched volumetric clouds in Unreal engine to develop my own version of the same in Unity.
 
 <div class="row">
@@ -197,7 +197,7 @@ float DuoCylinder( float4 p, float2 r1r2) {
 
 #### **5.0 Snowstorm System - Soul Shard**
 * I assisted the [19 Souls on Board](https://www.19soulsonboard.com/about) team at FIEA as a technical artist for their capstone project [Soul Shard](https://store.steampowered.com/app/2005820/Soul_Shard/). The game is getting processed by Steam and will be out soon!
-* As a part of this engagement, one of my tasks was to come up with a snowstorm system for the yard area that's situated in the middle of the map by looking at a [reference video](https://www.youtube.com/watch?v=sGkh1W5cbH4).
+* As a part of this engagement, one of my tasks was to develop a snowstorm system for the yard area that's situated in the middle of the map by looking at a [reference video](https://www.youtube.com/watch?v=sGkh1W5cbH4).
 * The detailed documentation and source code can be found [here](https://makra.wtf/docs/2022/soul-shard/).
 * To simulate a natural looking snowstorm, I decided to divide the snowstorm into three subsystems—  
   
@@ -236,7 +236,7 @@ float DuoCylinder( float4 p, float2 r1r2) {
 </div>
 
 #### **6.0 Digital Art - Hypercasual Concept Pitches**
-* As a part of the PPP (Pay-Per-Prototype) deal by CrazyLabs I was expected to deliver Concept Pitches of various Hypercasual ideas, the best ones of these were approved by them for me to develop.
+* As a part of the PPP (Pay-Per-Prototype) deal by CrazyLabs, I was expected to deliver Concept Pitches of various Hypercasual ideas and they approved the best ones for me to develop.
 * To make the digital art mockups for these, I used Procreate on iPad.
 * These are the mockups for the game Tilt Paint (the original concept pitch can be found [here](https://makra.wtf/assets/pdf/TiltPaint.pdf))—
 
@@ -272,8 +272,8 @@ float DuoCylinder( float4 p, float2 r1r2) {
 * The comprehensive list and source files for all the 30 concept pitches delivered can be found [here](https://makra.wtf/projects/) by scrolling to the `concept pitches` section.
 
 #### **7.0 Retro Shader & Post Processing - Are Ya Winning, Son?**
-* While participating in the GMTK Game Jam 2020, we were working on a retro-styled game where the AI won't let you win. 
-* To add on to the retro theme we decided to use shaders and post processing effects in such a way that the game feels as if its being played on a CRT TV.
+* While participating in the GMTK Game Jam 2020, we worked on a retro-styled game where the AI won't let you win. 
+* To add to the retro theme, we decided to use shaders and post-processing effects so that the game feels as if it's being played on a CRT TV.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -287,7 +287,7 @@ float DuoCylinder( float4 p, float2 r1r2) {
 * You can play the game [here](https://makra.itch.io/are-ya-winning-son) and watch its devlog [here](https://youtu.be/Anhjc7sRoFc).
 
 #### **8.0 Pixel Art - Doge to the Moon**
-* While competing for the Opera GX Game Jam, I worked upon Pixel Art of various characters of our game [Doge to The Moon](https://gamejolt.com/games/doge2themoon/636263). 
+* While competing for the Opera GX Game Jam, I worked on Pixel Art of various characters of our game [Doge to The Moon](https://gamejolt.com/games/doge2themoon/636263). 
 * All of these Pixel Arts were made using the GameMaker Studio 2's Sprite Editor.
 
 <div class="row">
@@ -299,7 +299,7 @@ float DuoCylinder( float4 p, float2 r1r2) {
     All Pixel Arts
 </div>
 
-* All of these assets had their glowing counterpart as well, to mimic the animation of getting hit.
+* All of these assets also had their glowing counterpart to mimic the animation of getting hit.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -310,7 +310,7 @@ float DuoCylinder( float4 p, float2 r1r2) {
     Glowing Pixel Arts
 </div>
 
-* Most of the sprites were converted into sprite sheets to animate the sprites with small variation in each slice of the sprite sheet.
+* Most of the sprites were converted into sprite sheets to animate the sprites with slight variations in each slice of the sprite sheet.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -347,24 +347,24 @@ float DuoCylinder( float4 p, float2 r1r2) {
 #### **9.0 VFX Graph in Unity**
 * I had to make a theme reveal video for a [Game Jam](https://itch.io/jam/gamejam-2020-ad) that my college was hosting. 
 * I decided to utilize this opportunity and learn VFX graphs in Unity. 
-* VFX graph help simulate over a million particles in real-time as they use the parallel processing capabilities of GPU unlike the default particle system that runs on CPU.
-* Everything that you see in this video is made out of '2020', which is the theme for the JAM itself.
+* VFX graph help simulate over a million particles in real-time as they use the parallel processing capabilities of GPU, unlike the default particle system that runs on CPU.
+* Everything that you see in this video is made out of '2020', which was the theme for the JAM itself.
 
 <div class="embed-responsive embed-responsive-16by9 rounded z-depth-1-half" style="width: auto;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kPlAOdrKgbw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 <br>
 
-#### **10.0 Non Euclidean Worlds in Unity**
-* I worked upon various Non-Euclidean world simulations inside of Unity, especially after CodeParade announced that [it's technically impossible to develop Non-Euclidean worlds in Unity without low level access to its Rendering Engine](https://youtu.be/kEB11PQ9Eo8?t=233).
-* The first simulation consisted of cameras rendering over a render texture in the opening of a tunnel and colliders that teleported the player between different worlds seamlessly offering a non euclidean illusion.
+#### **10.0 Non-Euclidean Worlds in Unity**
+* I worked on various Non-Euclidean world simulations inside of Unity, especially after CodeParade announced that [it's technically impossible to develop Non-Euclidean worlds in Unity without low-level access to its Rendering Engine](https://youtu.be/kEB11PQ9Eo8?t=233).
+* The first simulation consisted of cameras rendering over a render texture in the opening of a tunnel and colliders that teleported the player between different worlds seamlessly, offering a non-euclidean illusion.
 
 <div class="embed-responsive embed-responsive-16by9 rounded z-depth-1-half" style="width: auto;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Jv5gQzI1xhk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 <br>
 
-* The next two simulations used multiple intersecting single-sided planes instead of a 3d mesh to give a non euclidean look.
+* The subsequent two simulations used multiple intersecting single-sided planes instead of a 3d mesh to give a non-euclidean look.
 
 <div class="d-flex">
   <div class="embed-responsive embed-responsive-16by9 mr-3 rounded z-depth-1-half" style="width: 50%;">
@@ -378,7 +378,7 @@ float DuoCylinder( float4 p, float2 r1r2) {
 <br>
 
 #### **11.0 Terrain Sculpting - Map of India for AFPS**
-* I led a team of 25 individuals to develop an Indian themed battle royale game.
+* I led a team of 25 individuals to develop an Indian-themed battle royale game.
 * The top view of the map was sculpted to represent the Indian map.
 
 <div class="row">
@@ -390,7 +390,7 @@ float DuoCylinder( float4 p, float2 r1r2) {
     In-Game Look of the Map
 </div>
 
-* This terrain was sculpted using the Unity's default Terrain Editor and this is the hyperlapse video of developing this map-
+* This terrain was sculpted using the Unity's default Terrain Editor, and this is the timelapse video of developing this map-
 
 <div class="embed-responsive embed-responsive-16by9 rounded z-depth-1-half" style="width: auto;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/n17XMTDp_Ns" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -416,7 +416,7 @@ float DuoCylinder( float4 p, float2 r1r2) {
     </div>        
 </div>
 
-* The materials properties were governed by six parameters in total—
+* The material's properties were governed by six parameters in total—
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/Coverage.gif" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
