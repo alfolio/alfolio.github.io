@@ -16,8 +16,8 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
 </div>
 
 #### **1.0 2D Lighting System - Unity**
-* While competing for the [Brackeys Game Jam 2021.1](https://itch.io/jam/brackeys-5), we decided to make a top-down atmospheric 2D game. 
-* Back when we started working on this project, Unity didn’t have any rendering pipeline that supported 2D lighting, so I developed my own lighting system for it.
+* While competing for the [Brackeys Game Jam 2021.1](https://itch.io/jam/brackeys-5), we decided to make a top-down atmospheric 2D game as they were trending a lot on [itch.io](https://itch.io/) back then.
+* Back when we started working on this project, Unity didn’t have any rendering pipeline that supported 2D lighting, so I developed my own lighting system for it. This was primarily done to add to atmospheric look of the game.
 * The detailed documentation and source code can be found [here](https://makra.wtf/docs/2022/two-opoosites/).
 
 <div class="row">
@@ -54,7 +54,7 @@ As the title suggests, this blog shall contain some of my favorite pieces of cod
     In-game look
 </div>
 
-* This how the lighting finally looked in the game with some post-processing thrown on the top of it. You can try it yourself [here](https://makra.itch.io/two-opposites).
+* This is how the lighting finally looked in the game with some post-processing thrown on the top of it. You can try it yourself [here](https://makra.itch.io/two-opposites).
 
 #### **2.0 ASCII Line Art - p5js**
 * After getting an experience as a tech artist at FIEA this summer, I was pretty sure this was the track that I'd be applying to.
@@ -140,7 +140,7 @@ function draw() {
 
 #### **3.0 Raymarched Clouds**
 * While working on Human Canon prototype for CrazyLabs, I came across the classic problem of optimizing volumetric clouds for low-end devices (especially mobile).
-* Upon some pondering over the internet, I came across this [video](https://youtu.be/4QOcCGI6xOU) about raymarched clouds by Sebastian Lague.
+* While doing my research over the internet, I came across this [video](https://youtu.be/4QOcCGI6xOU) about raymarched clouds by Sebastian Lague.
 * This video eventually drew my attention towards raymarching, and eventually I wrote my own raymarcher for Unity. You can find the project [here](https://github.com/aniketrajnish/Raymarching-Engine-Unity). The HLSL (Shader) files can be found [here](https://github.com/aniketrajnish/Raymarching-Engine-Unity/tree/main/Assets/Shaders).
 * Further, I followed [this article](https://shaderbits.com/blog/creating-volumetric-ray-marcher) about making raymarched volumetric clouds in Unreal engine to develop my own version of the same in Unity.
 
@@ -196,8 +196,8 @@ float DuoCylinder( float4 p, float2 r1r2) {
 {% endhighlight %}
 
 #### **5.0 Snowstorm System - Soul Shard**
-* I assisted the [19 Souls on Board](https://www.19soulsonboard.com/about) team at FIEA as a technical artist this summer for their capstone project [Soul Shard](https://store.steampowered.com/app/2005820/Soul_Shard/). The game is getting processed by Steam and will be out soon!
-* As a part of this engagement, one of my tasks was to come up with a snowstorm system for the yard area by looking at a [reference video](https://www.youtube.com/watch?v=sGkh1W5cbH4).
+* I assisted the [19 Souls on Board](https://www.19soulsonboard.com/about) team at FIEA as a technical artist for their capstone project [Soul Shard](https://store.steampowered.com/app/2005820/Soul_Shard/). The game is getting processed by Steam and will be out soon!
+* As a part of this engagement, one of my tasks was to come up with a snowstorm system for the yard area that's situated in the middle of the map by looking at a [reference video](https://www.youtube.com/watch?v=sGkh1W5cbH4).
 * The detailed documentation and source code can be found [here](https://makra.wtf/docs/2022/soul-shard/).
 * To simulate a natural looking snowstorm, I decided to divide the snowstorm into three subsystems—  
   
@@ -252,7 +252,7 @@ float DuoCylinder( float4 p, float2 r1r2) {
     </div>     
 </div>
 
-* Some mockups were rendered in Blender too. The for instance the mockup of Body Crack ASMR (the original concept pitch can be found [here](https://makra.wtf/assets/pdf/BodyCrackASMR.pdf))—
+* Some mockups were rendered in Blender too. Take for instance the mockup of Body Crack ASMR (the original concept pitch can be found [here](https://makra.wtf/assets/pdf/BodyCrackASMR.pdf))—
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -273,7 +273,7 @@ float DuoCylinder( float4 p, float2 r1r2) {
 
 #### **7.0 Retro Shader & Post Processing - Are Ya Winning, Son?**
 * While participating in the GMTK Game Jam 2020, we were working on a retro-styled game where the AI won't let you win. 
-* To add to the retro theme we decided to use shaders and post processing effects in such a way that the game feels as if its being played on a CRT TV.
+* To add on to the retro theme we decided to use shaders and post processing effects in such a way that the game feels as if its being played on a CRT TV.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -287,9 +287,8 @@ float DuoCylinder( float4 p, float2 r1r2) {
 * You can play the game [here](https://makra.itch.io/are-ya-winning-son) and watch its devlog [here](https://youtu.be/Anhjc7sRoFc).
 
 #### **8.0 Pixel Art - Doge to the Moon**
-* While competing for the Opera GX Game Jam, I worked upon Pixel Art of various characters of our game Doge to The Moon. 
+* While competing for the Opera GX Game Jam, I worked upon Pixel Art of various characters of our game [Doge to The Moon](https://gamejolt.com/games/doge2themoon/636263). 
 * All of these Pixel Arts were made using the GameMaker Studio 2's Sprite Editor.
-* You can try the game [here](https://gamejolt.com/games/doge2themoon/636263).
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -300,7 +299,7 @@ float DuoCylinder( float4 p, float2 r1r2) {
     All Pixel Arts
 </div>
 
-* All of these assets had their glowing counterpart aswell, to mimic the animation of getting hit.
+* All of these assets had their glowing counterpart as well, to mimic the animation of getting hit.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -357,7 +356,7 @@ float DuoCylinder( float4 p, float2 r1r2) {
 <br>
 
 #### **10.0 Non Euclidean Worlds in Unity**
-* I worked upon various Non-Eucledian world simulations inside of Unity, especially after CodeParade announced that [it's technically impossible to develop Non-Eucledian worlds in Unity without low level access to its Rendering Engine](https://youtu.be/kEB11PQ9Eo8?t=233).
+* I worked upon various Non-Euclidean world simulations inside of Unity, especially after CodeParade announced that [it's technically impossible to develop Non-Euclidean worlds in Unity without low level access to its Rendering Engine](https://youtu.be/kEB11PQ9Eo8?t=233).
 * The first simulation consisted of cameras rendering over a render texture in the opening of a tunnel and colliders that teleported the player between different worlds seamlessly offering a non euclidean illusion.
 
 <div class="embed-responsive embed-responsive-16by9 rounded z-depth-1-half" style="width: auto;">
@@ -379,7 +378,7 @@ float DuoCylinder( float4 p, float2 r1r2) {
 <br>
 
 #### **11.0 Terrain Sculpting - Map of India for AFPS**
-* I was leading a team of 25 individuals to develop an Indian themed battle royale game.
+* I led a team of 25 individuals to develop an Indian themed battle royale game.
 * The top view of the map was sculpted to represent the Indian map.
 
 <div class="row">
