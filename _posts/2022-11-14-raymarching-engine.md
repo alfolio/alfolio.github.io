@@ -1,7 +1,7 @@
 ---
 layout: post
 title: writing a Raymarching Engine for Unity!
-date: 2022-11-14 15:00:00
+date: 2022-11-14 19:00:00
 description: this blog shows the thought & development process behind the Raymarching Engine I wrote for Unity
 tags: unity3d raymarching
 categories: blog
