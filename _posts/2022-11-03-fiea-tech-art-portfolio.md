@@ -461,5 +461,3 @@ float DuoCylinder( float4 p, float2 r1r2) {
     </div>
     </div>    
 </div>
-
-
