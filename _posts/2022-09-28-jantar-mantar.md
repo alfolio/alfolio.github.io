@@ -114,7 +114,7 @@ In the next week we were assigned the task to come up with labelled Jantar Manta
 #### 2.4 Shadows in Unity
 
 - I decided to use a cylinder model to simulate how the sun would cast its shadows on a full day and night cycle.
-- The shadows depicted linear movement (motion on a straight line) unlike the sundial with roughly works like a clock and the dial rotates in a clockwise fashion.
+- The shadows depicted linear movement (motion on a straight line), unlike the sundial, which roughly works like a clock, and the dial rotates in a clockwise fashion.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
