@@ -10,7 +10,7 @@ category: games (professional)
 * Developed in a team of 19 with me looking after particles, shaders, and a few gameplay mechanics.
 * The development update to the game can be viewed [here](https://www.youtube.com/watch?v=0S1EbyBRVhw). 
 * The repository containing my contributions to the project can be found [here](https://github.com/19SOB/ucf-fiea-19sob-capstone-project-temp).
-* Curated development logs and documentation to my contributions can be found [here](https://aniketrajnish.github.io/docs/soulshard).
+* Curated development logs and documentation to my contributions can be found [here](https://makra.wtf/docs/2022/soul-shard/).
 * Became competent with the workflow principles followed in Unreal Engine (Materials, Lighting & Reflections, Blueprinting, Niagara, Landscape sculpting, Post Processing, Quixel).
 * Developed a dynamic footprint system for main characters.
 * Developed VFX effects like stylized fire & flames, smoke, debris & flames using the Niagara system.
