@@ -47,6 +47,8 @@ html[data-theme='dark'] {
   --global-divider-color: #424246;
   --global-card-bg-color: #{$grey-900};
 
+  scroll-behavior: smooth;
+
   .fa-sun {
     padding-left: 10px;
     padding-top: 12px;
