@@ -8,8 +8,8 @@ categories: blog
 ---
 
 As a part of this project course we're expected to create a physically precise interactive model of the various yantras at [Jantar Mantar](https://www.jantarmantar.org/) in Unity. This project is being mentored by [Sameer Sahasrabudhe](https://iitgn.ac.in/faculty/design/sameer). 
-* The report for the work done on this project in Sem 1 [AY 2022-23] can be found [here](https://makra.wtf/assets/pdf/19110178_DES499_Report.pdf). 
-* All other deliverables can be found [here](https://makra.wtf/docs/2022/des499-pastebin/).
+* The report for the work done on this project in Sem 1 [AY 2022-23] can be found [here](/assets/pdf/Aniket_Progyan_FasterThanNERFs.pdf). 
+* All other deliverables can be found [here](https://makra.wtf/docs/2022/cs499-pastebin/).
 
 #### 1.0 Week - 1
 
