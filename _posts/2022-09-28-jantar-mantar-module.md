@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Jantar Mantar Course Module
-date: 2022-11-14 10:30:00
+date: 2023-04-18 10:30:00
 description: A course module to know about Samrat Yantra using the simulation that we've made!
 tags: unity3d jantarmantar elearing
 categories: blog
