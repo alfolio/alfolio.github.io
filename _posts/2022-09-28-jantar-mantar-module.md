@@ -127,6 +127,13 @@ This course aims at equipping students with the ability to --
     </div>
 </div>
 
+**Materials:**
+* Previous Models from both the activities
+* Chart paper
+* Pencil
+* Ruler
+* Marker
+
 #### 1.2 3D Models
 
 - Then we created rough models of the [Samrat Yantra](https://www.jantarmantar.org/learn/observatories/instruments/samrat/index.html) in Blender based on the resources we could procure.
