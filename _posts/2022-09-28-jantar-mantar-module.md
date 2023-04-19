@@ -15,11 +15,12 @@ This course aims at equipping students with the ability to --
 
 #### 1.1 What's Time?
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/time_jm.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
+<div class="row justify-content-center">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.html path="assets/img/time_jm.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true style="width:50%" %}
+  </div>
 </div>
+
 
 * Do you what time is?
 * What are some of the different units of time that we use, like seconds, minutes, hours, and days?
@@ -27,9 +28,9 @@ This course aims at equipping students with the ability to --
 
 #### 1.2 How would you measure time?
 
-<div class="row">
+<div class="row justify-content-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/measure_jm.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/measure_jm.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true style="width:50%" %}
     </div>
 </div>
 
@@ -91,11 +92,11 @@ This course aims at equipping students with the ability to --
 
 #### 2.2 Learning about Samrat Yantra
 
-<div class="row">
+<div class="row justify-content-center">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/samrat_yantra_jm.jpg" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/samrat_yantra_jm.jpg" title="example image" class="img-fluid rounded z-depth-1" zoomable=true style="width:50%" %}
     </div>
-</div>
+</div> 
 
 **Materials Needed:**
 * Ruler
