@@ -7,6 +7,10 @@ tags: unity3d jantarmantar elearing
 categories: blog
 ---
 
+This course aims at equipping students with the ability to --
+* Analyze and comprehend the intricacies of the relationship between time and the shadow cast by the Sundials (especially Jantar Mantar's sundial).
+* Design a low level implementation of a sundial along with a small-scale model of Samrat Yantra.
+
 ## 1.0 Introducing the topic through Questions
 
 #### 1.1 What's Time?
@@ -37,7 +41,10 @@ categories: blog
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/sundial_jm.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/sundial_jm.png" title="screenshot" class="img-fluid rounded z-depth-1 d-block ml-auto" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/sundial_jm_2.png" title="screenshot" class="img-fluid rounded z-depth-1 d-block mr-auto" zoomable=true %}
     </div>
 </div>
 
@@ -78,6 +85,26 @@ categories: blog
 * If the stick or dowel is too short, you can use a stack of books or a box to elevate it.
 * If the surface you're using isn't flat, make sure to adjust the angle of the stick or dowel so that it's perpendicular to the ground.
 * If you live in the Southern Hemisphere, make sure to point the stick or dowel towards the North instead of the South.
+
+#### 2.2 Learning about Samrat Yantra
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/samrat_yantra_jm.jpg" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+
+**Materials Needed:**
+* Ruler
+* Compass
+* Scissors
+* Cardboard or stiff paper
+* Pencil
+* Tape
+* Protractor
+* Whiteboard or chart paper
+
+**Instructions:**
 
 
 #### 1.2 3D Models
