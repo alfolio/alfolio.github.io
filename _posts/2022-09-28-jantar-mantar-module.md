@@ -11,7 +11,7 @@ This course aims at equipping students with the ability to --
 * Analyze and comprehend the intricacies of the relationship between time and the shadow cast by the Sundials (especially Jantar Mantar's sundial).
 * Design a low level implementation of a sundial along with a small-scale model of Samrat Yantra.
 
-## 1.0 Introducing the topic through Questions
+### 1.0 Introducing the topic through Questions
 
 #### 1.1 What's Time?
 
@@ -44,7 +44,7 @@ This course aims at equipping students with the ability to --
         {% include figure.html path="assets/img/sundial_jm.png" title="screenshot" class="img-fluid rounded z-depth-1 d-block ml-auto" zoomable=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/sundial_jm_2.png" title="screenshot" class="img-fluid rounded z-depth-1 d-block mr-auto" zoomable=true %}
+        {% include figure.html path="assets/img/sundial_2_jm.png" title="screenshot" class="img-fluid rounded z-depth-1 d-block mr-auto" zoomable=true %}
     </div>
 </div>
 
@@ -58,7 +58,10 @@ This course aims at equipping students with the ability to --
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/sns_1_jm.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/sns_1_jm.png" title="screenshot" class="img-fluid rounded z-depth-1 d-block ml-auto" zoomable=true %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/sns_2_jm.png" title="screenshot" class="img-fluid rounded z-depth-1 d-block mr-auto" zoomable=true %}
     </div>
 </div>
 
@@ -106,6 +109,19 @@ This course aims at equipping students with the ability to --
 
 **Instructions:**
 
+* Provide the students with the [Samrat Yantra Model Template](https://www.jantarmantar.org/resources/Projects/SY-Model/Samrat-Yantra-Model-Templates.pdf) and explain the different views and proportions of the instrument.
+* Ask the students to use a ruler and a compass to trace the shapes onto a piece of cardboard or stiff paper.
+* Have the students cut out the traced shapes using scissors.
+* Ask the students to assemble the individual cut pieces of sundial using tape to attach the various parts together.
+* Have the students use a protractor to set the angle of the gnomon to the latitude of their location.
+
+Ask the students to place their Samrat Yantra in a sunny location and use a pencil to mark the position of the shadow cast by the gnomon at different times of the day.
+
+Have the students record the time corresponding to each shadow position on a whiteboard or chart paper.
+
+Discuss with the students how the Samrat Yantra measures time using the position of the sun, and how its design takes into account the Earth's axial tilt and the latitude of the location.
+
+Finally, ask the students to present their Samrat Yantra to the class and explain how they used the templates to guide their designs, and how they took into account the Earth's axial tilt and the latitude of their location.
 
 #### 1.2 3D Models
 
