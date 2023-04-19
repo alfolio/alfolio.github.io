@@ -52,7 +52,7 @@ This course aims at equipping students with the ability to --
 * Have you ever seen a real-life sundial before? Where and when did you see it?
 * Do you know how they work?
 
-## 2.0 Learning through Activities
+### 2.0 Learning through Activities
 
 #### 2.1 Stick and Shadow Activity
 
@@ -114,14 +114,17 @@ This course aims at equipping students with the ability to --
 * Have the students cut out the traced shapes using scissors.
 * Ask the students to assemble the individual cut pieces of sundial using tape to attach the various parts together.
 * Have the students use a protractor to set the angle of the gnomon to the latitude of their location.
+* Ask the students to place their Samrat Yantra in a sunny location and use a pencil to mark the position of the shadow cast by the gnomon at different times of the day.
+* Have the students record the time corresponding to each shadow position on a whiteboard or chart paper.
+* Discuss with the students how the Samrat Yantra measures time using the position of the sun, and how its design takes into account the Earth's axial tilt and the latitude of the location.
 
-Ask the students to place their Samrat Yantra in a sunny location and use a pencil to mark the position of the shadow cast by the gnomon at different times of the day.
+#### 2.3 Comparing Samrat Yantra and Stick & Shadow Sundial
 
-Have the students record the time corresponding to each shadow position on a whiteboard or chart paper.
-
-Discuss with the students how the Samrat Yantra measures time using the position of the sun, and how its design takes into account the Earth's axial tilt and the latitude of the location.
-
-Finally, ask the students to present their Samrat Yantra to the class and explain how they used the templates to guide their designs, and how they took into account the Earth's axial tilt and the latitude of their location.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/two_sundials.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
 
 #### 1.2 3D Models
 
