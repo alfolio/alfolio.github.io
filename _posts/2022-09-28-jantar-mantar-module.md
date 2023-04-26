@@ -89,7 +89,7 @@ This course aims at equipping students with the ability to --
 * If the surface you're using isn't flat, make sure to adjust the angle of the stick or dowel so that it's perpendicular to the ground.
 * If you live in the Southern Hemisphere, make sure to point the stick or dowel towards the North instead of the South.
 
-#### 2.2 Learning about Samrat Yantra
+#### 2.2 Samrat Yantra Model
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -109,7 +109,7 @@ This course aims at equipping students with the ability to --
 
 **Instructions:**
 
-* Provide the students with the [Samrat Yantra Model Template](https://www.jantarmantar.org/resources/Projects/SY-Model/Samrat-Yantra-Model-Templates.pdf) and explain the different views and proportions of the instrument.
+* Provide the students with the [Samrat Yantra Model Template](https://www.jantarmantar.org/resources/Projects/SY-Model/Samrat-Yantra-Model-Templates.pdf) and explain the different views and proportions of the instrument without actually mentioning anything about Samrat Yantra in particular -- can just introduce as a more refined/complex version of the previous sundial.
 * Ask the students to use a ruler and a compass to trace the shapes onto a piece of cardboard or stiff paper.
 * Have the students cut out the traced shapes using scissors.
 * Ask the students to assemble the individual cut pieces of sundial using tape to attach the various parts together.
@@ -142,3 +142,152 @@ This course aims at equipping students with the ability to --
 * Have the students discuss the differences in the accuracy of the two instruments. Ask them to identify factors that might affect the accuracy of each instrument, such as the position of the sun, the Earth's axial tilt, and the latitude of the location.
 * Finally, ask the students to present their findings to the class and share their observations and conclusions.
 
+### 3.0 Exploring Samrat Yantra using a Simulation 
+
+#### 3.1 Introducing the simulation
+
+* Ask the students to bring their laptops in the next class/take them to the computer lab.
+* Begin the lesson by reviewing what students know about measuring time by asking them to recall some of the methods they learned in the previous lessons, such as the stick and shadow activity.
+* It's time to introduce Samrat Yantra to students as something that they created in the second activity and is of national importance.
+* Let people explore more about Samrat Yantra [here](https://www.jantarmantar.org/learn/observatories/instruments/samrat/index.html) and refer to page 47-50 of the [book Jantar Mantar by Anisha Shekhar Mukherji](https://www.amazon.in/-/hi/Anisha-Shekhar-Mukherji/dp/B01N361SW3). 
+* Ask students if can perceive how Samrat Yantra works. Allow for discussion and ask guiding questions to help them understand the concept of shadows and their relation to time.
+* Introduce the virtual simulation of Samrat Yantra hosted [here](https://aniketrajnish.github.io/build/). Explain that the simulation is designed to show how the instrument works by simulating the movement of the sun and the shadows it casts on the Yantra.
+* Show students how to input the time and how the shadows change accordingly.
+
+#### 3.2 Exploring the simulation
+
+* Divide students into pairs or small groups and allow them to explore the simulation on their own and have a discussion over it. Encourage them to experiment with different times and observe how the shadows change.
+* Keep a few volunteers who'll be keeping a check on  
+* Allow them a time of around ~ 30 minutes to come up with a one page documentation of their learnings and how they feel they the shadows are related to time of the day. 
+* Once everyone has submitted their learnings, evaluate it in contrast to the actual intricacies mentioned in Page 51-75 of the Jantar Mantar book and help student identify the true relation between time and shadow casted. 
+* Conclude the lesson by summarizing the main points and reviewing what students learned about Samrat Yantra and the shadow simulation. Encourage them to continue exploring the simulation on their own as an assignment is about come up soon!
+
+### 4.0 Assessment and Reward
+
+#### 4.1 Theory based MCQs
+* Which of the following is a natural way of measuring time?
+    a. Digital clocks
+    b. Sundials
+    c. Samrat Yantra
+    d. Both b and c
+
+* How does a sundial work?
+    a. It uses a digital display to show the time
+    b. It casts a shadow on a marked surface to indicate the time
+    c. It uses a pendulum to measure time
+    d. It uses sand flowing through a narrow opening to measure time
+
+* Which of the following is a benefit of using a digital clock to measure time?
+    a. It is easy to use and read
+    b. It can be used even when there is no sun or light
+    c. It is less expensive than other methods
+    d. Both a and b
+
+* What is the Samrat Yantra?
+    a. A type of digital clock
+    b. An ancient Indian astronomical instrument used to measure time
+    c. A sundial used by the ancient Greeks
+    d. A water clock used by the ancient Egyptians
+
+* How does the Samrat Yantra work?
+    a. It uses a pendulum to measure time
+    b. It casts a shadow on a marked surface to indicate the time
+    c. It uses sand flowing through a narrow opening to measure time
+    d. None of the above
+
+* Which method of measuring time is most accurate?
+    a. Sundials
+    b. Samrat Yantra
+    c. Digital clocks
+    d. They are all equally accurate
+
+* Which method of measuring time would be best to use on a cloudy day?
+    a. Sundial
+    b. Samrat Yantra
+    c. Digital clock
+    d. None of the above
+
+*   Which of the following is a disadvantage of using a sundial to measure time?
+    a. It requires sunlight to work
+    b. It is less accurate than other methods
+    c. It is more expensive than other methods
+    d. Both a and b
+
+* How can knowledge of different methods of measuring time be useful in everyday life?
+    a. It can help in planning and managing time
+    b. It can help in understanding historical and cultural significance of timekeeping
+    c. It can aid in developing problem-solving and critical thinking skills
+    d. All of the above
+
+* Which method of measuring time has been used the longest?
+    a. Sundials
+    b. Samrat Yantra
+    c. Digital clocks
+    d. They have all been used for the same amount of time.
+
+### 4.2 Theory based Subjective
+
+* List different methods of measuring time and state how would you measure time without using any device?
+* How do the methods suggested by students differ in terms of accuracy and practicality?
+* Why do you think standardized timekeeping using devices like sundials is preferable?
+* How do sundials work? What is Samrat Yantra?
+* Analyze the performance of a sundial using the simulation. What were the results and how do they compare to your expectations?
+
+### 4.3 Practical based Questions 
+
+* In what ways do you think modern timekeeping methods (like digital clocks and watches) are similar to and different from ancient timekeeping methods (like sundials and water clocks)? Which do you think is more useful or accurate, and why?
+* Describe the behavior of the shadow cast by the Samrat Yantra as time progresses in the simulation. What factors affect the position and size of the shadow?
+* Please approximate time (upto 1 hour) for these images:
+    a. <div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/t4.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+    b. <div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/t1.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+    c. <div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/t2.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+   d. <div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/t3.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+    e. <div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/t5.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+
+
+### 4.5 Grading & Reward
+
+* The weightage of marks for the entire course will be as follows --
+  * Continous Cumulative Evaluation (Total - 60 marks)
+    * What's Time? Q/A - Class Participation (4 marks)
+    * How would you measure time? Q/A - Class Participation (4 marks)
+    * Introducing Sundials Q/A - Class Participation (4 marks)
+    * Stick and Shadow Activity - Outcome Shown (15 marks)
+    * Samrat Yantra Model - Outcome Shown (15 marks)
+    * Comparing Samrat Yantra and Stick & Shadow Sundial - Outcome Shown (15 marks)
+    * Exploring the simulation - Report (3 marks)
+  
+  * Final Assessment (Total - 40 marks)
+    * Theory based MCQs (10 marks - 1 mark each)
+    * Theory based Subjective (10 marks - 2 mark each)
+    * Practical based Questions (20 marks - 2 mark each for time identification, 5 mark each for subjective question)
+  
+* The grading scheme for the entire course will be as follows --
+  * A : 90+ marks
+  * B : 80-90 marks
+  * C : 70-80 marks
+  * D : 60-70 marks
+  * E : 50-60 marks
+  * *F* : <50 marks
+
+* As a reward for their hard work and dedication, students who score an **A or B or C** grade on the Jantar Mantar lesson assessments will have the opportunity to experience a virtual walkthrough of Jantar Mantar using the VR simulation that we've created. This immersive experience will allow students to explore the complex instruments and observe how they function in a detailed and interactive manner. For those who score an A grade specifically, we will organize a field trip to Jantar Mantar in Jaipur, where they will have the opportunity to see the real instruments in person and learn more about their historical and cultural significance. On the other hand, students who score an F grade will be required to repeat the course and demonstrate a better understanding of the material before being eligible for any rewards or field trips. We hope that these incentives will motivate students to engage more deeply with the material and appreciate the wonders of ancient Indian astronomy and engineering. 
