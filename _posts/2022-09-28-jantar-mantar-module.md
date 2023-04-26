@@ -146,6 +146,12 @@ This course aims at equipping students with the ability to --
 
 #### 3.1 Introducing the simulation
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/int.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+
 * Ask the students to bring their laptops in the next class/take them to the computer lab.
 * Begin the lesson by reviewing what students know about measuring time by asking them to recall some of the methods they learned in the previous lessons, such as the stick and shadow activity.
 * It's time to introduce Samrat Yantra to students as something that they created in the second activity and is of national importance.
@@ -156,6 +162,12 @@ This course aims at equipping students with the ability to --
 
 #### 3.2 Exploring the simulation
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/exp.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+
 * Divide students into pairs or small groups and allow them to explore the simulation on their own and have a discussion over it. Encourage them to experiment with different times and observe how the shadows change.
 * Keep a few volunteers who'll be keeping a check on  
 * Allow them a time of around ~ 30 minutes to come up with a one page documentation of their learnings and how they feel they the shadows are related to time of the day. 
@@ -163,6 +175,12 @@ This course aims at equipping students with the ability to --
 * Conclude the lesson by summarizing the main points and reviewing what students learned about Samrat Yantra and the shadow simulation. Encourage them to continue exploring the simulation on their own as an assignment is about come up soon!
 
 ### 4.0 Assessment and Reward
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/anr.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
 
 #### 4.1 Theory based MCQs
 * Which of the following is a natural way of measuring time?
@@ -266,6 +284,12 @@ This course aims at equipping students with the ability to --
 
 
 ### 4.5 Grading & Reward
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/gnr.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
 
 * The weightage of marks for the entire course will be as follows --
   * Continous Cumulative Evaluation (Total - 60 marks)
