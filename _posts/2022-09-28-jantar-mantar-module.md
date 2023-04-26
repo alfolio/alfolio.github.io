@@ -256,27 +256,27 @@ This course aims at equipping students with the ability to --
 * In what ways do you think modern timekeeping methods (like digital clocks and watches) are similar to and different from ancient timekeeping methods (like sundials and water clocks)? Which do you think is more useful or accurate, and why?
 * Describe the behavior of the shadow cast by the Samrat Yantra as time progresses in the simulation. What factors affect the position and size of the shadow?
 * Please approximate time (upto 1 hour) for these images:
-    * <div class="row">
+     <div class="row">
         <div class="col-sm mt-3 mt-md-0">
             {% include figure.html path="assets/img/t4.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
     </div>
-    * <div class="row">
+    <div class="row">
         <div class="col-sm mt-3 mt-md-0">
             {% include figure.html path="assets/img/t1.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
     </div>
-    * <div class="row">
+    <div class="row">
         <div class="col-sm mt-3 mt-md-0">
             {% include figure.html path="assets/img/t2.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
     </div>
-    * <div class="row">
+    <div class="row">
         <div class="col-sm mt-3 mt-md-0">
             {% include figure.html path="assets/img/t3.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
     </div>
-    * <div class="row">
+    <div class="row">
         <div class="col-sm mt-3 mt-md-0">
             {% include figure.html path="assets/img/t5.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
         </div>
