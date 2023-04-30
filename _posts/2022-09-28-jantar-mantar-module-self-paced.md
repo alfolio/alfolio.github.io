@@ -8,53 +8,12 @@ categories: blog
 ---
 
 This course aims at equipping students with the ability to --
-* Analyze and comprehend the intricacies of the relationship between time and the shadow cast by the Sundials (especially Jantar Mantar's sundial).
+* Analyze and comprehend the intricacies of the relationship between time and the shadow cast by the Sundials (especially Jantar Mantar's sundial -- Samrat Yantra).
 * Design a low level implementation of a sundial along with a small-scale model of Samrat Yantra.
 
-### 1.0 Introducing the topic through Questions
+### 1.0 Learning through Activities
 
-#### 1.1 What's Time?
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/time_jm.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
-
-* Do you what time is?
-* What are some of the different units of time that we use, like seconds, minutes, hours, and days?
-* How do you think our understanding of time has changed over the years?
-
-#### 1.2 How would you measure time?
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/measure_jm.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
-
-* Do you know how time is measured?
-* Have you ever experienced a situation where it was challenging to measure time accurately? What happened?
-* Let's do an activity where we come up with creative ways to measure time! Can you think of ways to measure one minute, five minutes, or an hour without using a clock or a watch? Let's see who can come up with the most creative ideas!
-
-#### 1.3 Introducing Sundials
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/sundial_jm.png" title="screenshot" class="img-fluid rounded z-depth-1 d-block ml-auto" zoomable=true %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/sundial_2_jm.png" title="screenshot" class="img-fluid rounded z-depth-1 d-block mr-auto" zoomable=true %}
-    </div>
-</div>
-
-* Someone mentioned the sun as a way to measure time. Did you know that people have been using the sun to measure time for thousands of years? Have you ever heard of a sundial? 
-* Have you ever seen a real-life sundial before? Where and when did you see it?
-* Do you know how they work?
-
-### 2.0 Learning through Activities
-
-#### 2.1 Stick and Shadow Activity
+#### 1.1 Stick and Shadow Activity
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -89,7 +48,7 @@ This course aims at equipping students with the ability to --
 * If the surface you're using isn't flat, make sure to adjust the angle of the stick or dowel so that it's perpendicular to the ground.
 * If you live in the Southern Hemisphere, make sure to point the stick or dowel towards the North instead of the South.
 
-#### 2.2 Samrat Yantra Model
+#### 1.2 Samrat Yantra Model
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -109,16 +68,61 @@ This course aims at equipping students with the ability to --
 
 **Instructions:**
 
-* Provide the students with the [Samrat Yantra Model Template](https://www.jantarmantar.org/resources/Projects/SY-Model/Samrat-Yantra-Model-Templates.pdf) and explain the different views and proportions of the instrument without actually mentioning anything about Samrat Yantra in particular -- can just introduce as a more refined/complex version of the previous sundial.
-* Ask the students to use a ruler and a compass to trace the shapes onto a piece of cardboard or stiff paper.
-* Have the students cut out the traced shapes using scissors.
-* Ask the students to assemble the individual cut pieces of sundial using tape to attach the various parts together.
-* Have the students use a protractor to set the angle of the gnomon to the latitude of their location.
-* Ask the students to place their Samrat Yantra in a sunny location and use a pencil to mark the position of the shadow cast by the gnomon at different times of the day.
-* Have the students record the time corresponding to each shadow position on a whiteboard or chart paper.
+* Open the [Samrat Yantra Model Template](https://www.jantarmantar.org/resources/Projects/SY-Model/Samrat-Yantra-Model-Templates.pdf).
+* Use a ruler and a compass to trace the shapes from the above document onto a piece of cardboard or stiff paper.
+* Cut out the traced shapes using scissors.
+* Assemble the individual cut pieces of sundial using tape to attach the various parts together.
+* Use a protractor to set the angle of the gnomon to the latitude of their location.
+* Place the Samrat Yantra in a sunny location and use a pencil to mark the position of the shadow cast by the gnomon at different times of the day.
+* Record the time corresponding to each shadow position on a whiteboard or chart paper in a similar fashion to the previous activity.
 * Discuss with the students how the Samrat Yantra measures time using the position of the sun, and how its design takes into account the Earth's axial tilt and the latitude of the location.
 
-#### 2.3 Comparing Samrat Yantra and Stick & Shadow Sundial
+### 2.0 Exploring Samrat Yantra using a Simulation 
+
+#### 2.1 Introducing the simulation
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/int.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+
+* Time to explore more about Samrat Yantra that you designed in the previous activity [here](https://www.jantarmantar.org/learn/observatories/instruments/samrat/index.html).
+* In case you're interested, you can buy and refer to page 47-50 of the book [Jantar Mantar by Anisha Shekhar Mukherji](https://www.amazon.in/-/hi/Anisha-Shekhar-Mukherji/dp/B01N361SW3) for additional details. 
+* The virtual simulation of Samrat Yantra is hosted [here](https://aniketrajnish.github.io/build/). Please visit it and try to work around it on your own before visiting the next section on what exactly needs to be done. 
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/hints.jpg" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    You can use these hints/click on the hint button in the simulation.
+</div>
+
+#### 2.2 Exploring the simulation activity
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/exp.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+
+**Materials Needed:**
+* Computer with Internet Access
+* Pen and paper
+
+**Instructions:**
+
+* Recall what you learned about measuring time using sundials and the stick and shadow method and about Samrat Yantra in general.
+* Open the simulation through this [link](https://aniketrajnish.github.io/build/).
+* Click on the Start button on the top right corner to begin the simulation and the Stop button to end it.
+* Use the slider or left/right buttons to rotate the camera and check the shadows casted by sundials and the Samrat Yantra from different angles.
+* Click on the Forward/Backward button to skip to a random time in forward/backward direction.
+* Input a specific time in the custom time input field on the top left to skip to that particular time.
+* Take screenshots at the same times as the previous activities through different angles. (i.e at 12 PM, 12.15 PM...)
+
+### 3.0 Comparing the Activities
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -128,6 +132,7 @@ This course aims at equipping students with the ability to --
 
 **Materials:**
 * Previous Models from both the activities
+* Computer/Laptop
 * Chart paper
 * Pencil
 * Ruler
@@ -142,37 +147,6 @@ This course aims at equipping students with the ability to --
 * Have the students discuss the differences in the accuracy of the two instruments. Ask them to identify factors that might affect the accuracy of each instrument, such as the position of the sun, the Earth's axial tilt, and the latitude of the location.
 * Finally, ask the students to present their findings to the class and share their observations and conclusions.
 
-### 3.0 Exploring Samrat Yantra using a Simulation 
-
-#### 3.1 Introducing the simulation
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/int.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
-
-* Ask the students to bring their laptops in the next class/take them to the computer lab.
-* Begin the lesson by reviewing what students know about measuring time by asking them to recall some of the methods they learned in the previous lessons, such as the stick and shadow activity.
-* It's time to introduce Samrat Yantra to students as something that they created in the second activity and is of national importance.
-* Let people explore more about Samrat Yantra [here](https://www.jantarmantar.org/learn/observatories/instruments/samrat/index.html) and refer to page 47-50 of the [book Jantar Mantar by Anisha Shekhar Mukherji](https://www.amazon.in/-/hi/Anisha-Shekhar-Mukherji/dp/B01N361SW3). 
-* Ask students if can perceive how Samrat Yantra works. Allow for discussion and ask guiding questions to help them understand the concept of shadows and their relation to time.
-* Introduce the virtual simulation of Samrat Yantra hosted [here](https://aniketrajnish.github.io/build/). Explain that the simulation is designed to show how the instrument works by simulating the movement of the sun and the shadows it casts on the Yantra.
-* Show students how to input the time and how the shadows change accordingly.
-
-#### 3.2 Exploring the simulation
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/exp.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
-    </div>
-</div>
-
-* Divide students into pairs or small groups and allow them to explore the simulation on their own and have a discussion over it. Encourage them to experiment with different times and observe how the shadows change.
-* Keep a few volunteers who'll be keeping a check on  
-* Allow them a time of around ~ 30 minutes to come up with a one page documentation of their learnings and how they feel they the shadows are related to time of the day. 
-* Once everyone has submitted their learnings, evaluate it in contrast to the actual intricacies mentioned in Page 51-75 of the Jantar Mantar book and help student identify the true relation between time and shadow casted. 
-* Conclude the lesson by summarizing the main points and reviewing what students learned about Samrat Yantra and the shadow simulation. Encourage them to continue exploring the simulation on their own as an assignment is about come up soon!
 
 ### 4.0 Assessment and Reward
 
