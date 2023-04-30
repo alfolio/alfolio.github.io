@@ -139,14 +139,12 @@ This course aims at equipping students with the ability to --
 * Marker
 
 **Instructions:**
-* Have the students set up both the Samrat Yantra and the stick and shadow sundial in a sunny location.
-* Ask the students to mark the position of the shadow cast by the gnomon on the sundial's face at a specific time of the day (e.g. 12:00 PM).
-* Have the students record the time shown by the Samrat Yantra at the same time.
-* Repeat steps 2 and 3 at different times of the day (e.g. 9:00 AM, 3:00 PM).
-* Ask the students to compare the time shown by the Samrat Yantra and the stick and shadow sundial for each time of the day. They can use a ruler and a marker to draw a line on a chart paper to represent the time shown by each instrument.
-* Have the students discuss the differences in the accuracy of the two instruments. Ask them to identify factors that might affect the accuracy of each instrument, such as the position of the sun, the Earth's axial tilt, and the latitude of the location.
-* Finally, ask the students to present their findings to the class and share their observations and conclusions.
-
+* Set up both the Samrat Yantra and the stick and shadow sundial in a sunny location.
+* Mark the position of the shadow cast by the gnomon on the sundial's face at a specific time of the day (e.g. 12:00 PM, 12.15 PM..).
+* Take screenshot of shadows shown by the simulation by inputting the cuurent time.
+* Compare the time shown by the Samrat Yantra and the stick and shadow sundial for these times using a ruler and a marker to draw a line on a chart paper to represent the time shown by each instrument.
+* Finally compare these with the screenshots taken.
+* Try to come up with a relation between shadows and time.
 
 ### 4.0 Assessment and Reward
 
@@ -156,106 +154,34 @@ This course aims at equipping students with the ability to --
     </div>
 </div>
 
-#### 4.1 Theory based MCQs
-* Which of the following is a natural way of measuring time?
-    * Digital clocks
-    * Sundials
-    * Samrat Yantra
-    * Both b and c
+#### 4.1 Self Evaluation 
 
-* How does a sundial work?
-    * It uses a digital display to show the time
-    * It casts a shadow on a marked surface to indicate the time
-    * It uses a pendulum to measure time
-    * It uses sand flowing through a narrow opening to measure time
-
-* Which of the following is a benefit of using a digital clock to measure time?
-    * It is easy to use and read
-    * It can be used even when there is no sun or light
-    * It is less expensive than other methods
-    * Both a and b
-
-* What is the Samrat Yantra?
-    * A type of digital clock
-    * An ancient Indian astronomical instrument used to measure time
-    * A sundial used by the ancient Greeks
-    * A water clock used by the ancient Egyptians
-
-* How does the Samrat Yantra work?
-    * It uses a pendulum to measure time
-    * It casts a shadow on a marked surface to indicate the time
-    * It uses sand flowing through a narrow opening to measure time
-    * None of the above
-
-* Which method of measuring time is most accurate?
-    * Sundials
-    * Samrat Yantra
-    * Digital clocks
-    * They are all equally accurate
-
-* Which method of measuring time would be best to use on a cloudy day?
-    * Sundial
-    * Samrat Yantra
-    * Digital clock
-    * None of the above
-
-*   Which of the following is a disadvantage of using a sundial to measure time?
-    * It requires sunlight to work
-    * It is less accurate than other methods
-    * It is more expensive than other methods
-    * Both a and b
-
-* How can knowledge of different methods of measuring time be useful in everyday life?
-    * It can help in planning and managing time
-    * It can help in understanding historical and cultural significance of timekeeping
-    * It can aid in developing problem-solving and critical thinking skills
-    * All of the above
-
-* Which method of measuring time has been used the longest?
-    * Sundials
-    * Samrat Yantra
-    * Digital clocks
-    * They have all been used for the same amount of time.
-
-### 4.2 Theory based Subjective
-
-* List different methods of measuring time and state how would you measure time without using any device?
-* How do the methods suggested by students differ in terms of accuracy and practicality?
-* Why do you think standardized timekeeping using devices like sundials is preferable?
-* How do sundials work? What is Samrat Yantra?
-* Analyze the performance of a sundial using the simulation. What were the results and how do they compare to your expectations?
-
-### 4.3 Practical based Questions 
-
-* In what ways do you think modern timekeeping methods (like digital clocks and watches) are similar to and different from ancient timekeeping methods (like sundials and water clocks)? Which do you think is more useful or accurate, and why?
-* Describe the behavior of the shadow cast by the Samrat Yantra as time progresses in the simulation. What factors affect the position and size of the shadow?
 * Please approximate time (upto 1 hour) for these images:
-     <div class="row">
-        <div class="col-sm mt-3 mt-md-0">
-            {% include figure.html path="assets/img/t4.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
-        </div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/t4.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-    <div class="row">
-        <div class="col-sm mt-3 mt-md-0">
-            {% include figure.html path="assets/img/t1.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
-        </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/t1.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-    <div class="row">
-        <div class="col-sm mt-3 mt-md-0">
-            {% include figure.html path="assets/img/t2.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
-        </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/t2.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-    <div class="row">
-        <div class="col-sm mt-3 mt-md-0">
-            {% include figure.html path="assets/img/t3.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
-        </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/t3.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-    <div class="row">
-        <div class="col-sm mt-3 mt-md-0">
-            {% include figure.html path="assets/img/t5.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
-        </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/t5.png" title="example image" class="img-fluid rounded z-depth-1" zoomable=true %}
     </div>
-
+</div>
 
 ### 4.5 Grading & Reward
 
