@@ -154,7 +154,7 @@ This course aims at equipping students with the ability to --
     </div>
 </div>
 
-#### 4.1 Self Evaluation 
+#### 4.1 Self Evaluation Assessment
 
 * Please approximate time (upto 1 hour) for these images by comparing it with the screenshots of simulation you took:
 <div class="row">
@@ -237,7 +237,7 @@ This course aims at equipping students with the ability to --
     </div>
 </div>
 
-### 4.5 Grading & Reward
+#### 4.2 Reward-Based Assessment
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -245,27 +245,8 @@ This course aims at equipping students with the ability to --
     </div>
 </div>
 
-* The weightage of marks for the entire course will be as follows --
-  * Continous Cumulative Evaluation (Total - 60 marks)
-    * What's Time? Q/A - Class Participation (4 marks)
-    * How would you measure time? Q/A - Class Participation (4 marks)
-    * Introducing Sundials Q/A - Class Participation (4 marks)
-    * Stick and Shadow Activity - Outcome Shown (15 marks)
-    * Samrat Yantra Model - Outcome Shown (15 marks)
-    * Comparing Samrat Yantra and Stick & Shadow Sundial - Outcome Shown (15 marks)
-    * Exploring the simulation - Report (3 marks)
-  
-  * Final Assessment (Total - 40 marks)
-    * Theory based MCQs (10 marks - 1 mark each)
-    * Theory based Subjective (10 marks - 2 mark each)
-    * Practical based Questions (20 marks - 2 mark each for time identification, 5 mark each for subjective question)
-  
-* The grading scheme for the entire course will be as follows --
-  * A : 90+ marks
-  * B : 80-90 marks
-  * C : 70-80 marks
-  * D : 60-70 marks
-  * E : 50-60 marks
-  * *F* : <50 marks
+* Come up with 1-2 page documentation of which method would you prefer to approximate shadows based upon the time and why. Additionaly, if you could derive a particular relation between the length of the shadows and time write that as well. Mail this document to [aniket.r@iitgn.ac.in](mailto:aniket.r@iitgn.ac.in).
+* Those submitting the best document will get a sponsored trip to Jantar Mantar. Meanwhile you can always visit it virtually using the Virtual Walkthrough we've created at you nearest VR station. Download [here](https://drive.google.com/file/d/1Tl1-8rmnSVsxPQBQIukdewaNnmpg1TjH/view?usp=sharing).
 
-* As a reward for their hard work and dedication, students who score an **A or B or C** grade on the Jantar Mantar lesson assessments will have the opportunity to experience a virtual walkthrough of Jantar Mantar using the VR simulation that we've created. This immersive experience will allow students to explore the complex instruments and observe how they function in a detailed and interactive manner. For those who score an A grade specifically, we will organize a field trip to Jantar Mantar in Jaipur, where they will have the opportunity to see the real instruments in person and learn more about their historical and cultural significance. On the other hand, students who score an F grade will be required to repeat the course and demonstrate a better understanding of the material before being eligible for any rewards or field trips. We hope that these incentives will motivate students to engage more deeply with the material and appreciate the wonders of ancient Indian astronomy and engineering. 
+
+ 
