@@ -75,7 +75,6 @@ This course aims at equipping students with the ability to --
 * Use a protractor to set the angle of the gnomon to the latitude of their location.
 * Place the Samrat Yantra in a sunny location and use a pencil to mark the position of the shadow cast by the gnomon at different times of the day.
 * Record the time corresponding to each shadow position on a whiteboard or chart paper in a similar fashion to the previous activity.
-* Discuss with the students how the Samrat Yantra measures time using the position of the sun, and how its design takes into account the Earth's axial tilt and the latitude of the location.
 
 ### 2.0 Exploring Samrat Yantra using a Simulation 
 
