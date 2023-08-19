@@ -23,6 +23,12 @@ I was recently accepted into the Florida Interactive Entertainment Academy for t
         </div>
     </div>  
 </div>
+<style>
+    .col-sm {
+        height: 100%;
+    }
+</style>
+
 
 As the title suggests, this blog shall contain some of my favorite pieces of code/artwork that I'd be submitting for my Technical Artist Portfolio (for [FIEA](https://fiea.ucf.edu/)) in no particular order.
 
