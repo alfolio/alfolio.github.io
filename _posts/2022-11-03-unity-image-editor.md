@@ -7,7 +7,7 @@ tags: unity3d photo-editor
 categories: blog
 ---
 
-I was recently accepted into the Florida Interactive Entertainment Academy as for the Technical Art track. I was checking out some medium blogs to to learn some image manipulation to brush up some of my technical art skils. Them medium gods were actually pretty darn helpful and I somehow ended up developing a janky photo editor using Unity. I'll be discussing my approach towards developing the photo editor in this blog.
+I was recently accepted into the Florida Interactive Entertainment Academy for the Technical Art track. I was checking out some medium blogs to to learn some image manipulation to brush up some of my technical art skils. Them medium gods were actually pretty darn helpful and I somehow ended up developing a janky photo editor using Unity. I'll be discussing my approach towards developing the photo editor in this blog.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
