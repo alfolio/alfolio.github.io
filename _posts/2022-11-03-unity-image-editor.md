@@ -9,29 +9,6 @@ categories: blog
 
 I was recently accepted into the Florida Interactive Entertainment Academy for the Technical Art track. I was checking out some medium blogs to to learn some image manipulation to brush up some of my technical art skils. Them medium gods were actually pretty darn helpful and I somehow ended up developing a janky photo editor using Unity. I'll be discussing my approach towards developing the photo editor in this blog.
 
-<style>
-    .row {
-        display: flex;
-    }
-
-    .col-sm {
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .img-container {
-        flex-grow: 1;
-        display: flex;
-        align-items: stretch;
-    }
-
-    .img-container img {
-        object-fit: cover;
-        width: 100%;
-    }
-</style>
-
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <div class="img-container">
@@ -51,6 +28,11 @@ I was recently accepted into the Florida Interactive Entertainment Academy for t
     </div>
 </div>
 
+
+
+## **1.0 Algorithm for Edits**
+
+I
 
 As the title suggests, this blog shall contain some of my favorite pieces of code/artwork that I'd be submitting for my Technical Artist Portfolio (for [FIEA](https://fiea.ucf.edu/)) in no particular order.
 
