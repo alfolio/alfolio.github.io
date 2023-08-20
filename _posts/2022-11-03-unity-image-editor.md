@@ -28,11 +28,44 @@ I was recently accepted into the Florida Interactive Entertainment Academy for t
     </div>
 </div>
 
+## **1.0 Preparing Images for Editing**
 
+The first step was transforming the images into a suitable format for easy manipulation.  `Texture2D` felt appopriate for this purpose, as it gives me more control over the pixel data. I could directly manipulate pixel values using the `GetPixel()` and `SetPixel()` methods of any Texture2D object.
 
-## **1.0 Algorithm for Edits**
+* So I created method that took an image an returned a Texture2D corresponding to it.
 
-I
+{% highlight c# %}
+
+private Texture2D GetTextureFromImage(Image targetImage) {}
+
+{% endhighlight %}
+
+* Then I created an empty texture with the width and height of the image.
+
+{% highlight c# %}
+
+Rect rect = targetImage.sprite.rect;
+Texture2D texture = new Texture2D((int)rect.width, (int)rect.height);
+        
+{% endhighlight %}
+
+* Finally I applied the individual pixels of the image to the pixels of the empty texture created and return it.
+
+{% highlight c# %}
+
+texture.SetPixels(targetImage.sprite.texture.GetPixels((int)rect.x, (int)rect.y, (int)rect.width, (int)rect.height));
+texture.Apply();
+return texture;
+        
+{% endhighlight %}
+
+## **2.0 Image Editing Algorithms: Approach**
+
+I chose to work on a series of image editing techniques. My plan was to apply these algorithms with different settings, essentially creating pre-defined configurations for editing images.
+
+#### **Saturation Control**
+
+The first control I wished to establish was for Saturation i.e the intensity of the color of each pixel of the image. 
 
 As the title suggests, this blog shall contain some of my favorite pieces of code/artwork that I'd be submitting for my Technical Artist Portfolio (for [FIEA](https://fiea.ucf.edu/)) in no particular order.
 
