@@ -49,11 +49,16 @@ Texture2D texture = new Texture2D((int)rect.width, (int)rect.height);
         
 {% endhighlight %}
 
-* Finally I applied the individual pixels of the image to the pixels of the empty texture created and return it.
+* Finally the pixels on the original image are mirrored on the pixels of the empty texture using the `SetPixels()` method.
 
 {% highlight c# %}
 
-texture.SetPixels(targetImage.sprite.texture.GetPixels((int)rect.x, (int)rect.y, (int)rect.width, (int)rect.height));
+texture.SetPixels(
+    targetImage.sprite.texture.GetPixels(
+        (int)rect.x,
+        (int)rect.y,
+        (int)rect.width, 
+        (int)rect.height));
 texture.Apply();
 return texture;
         
