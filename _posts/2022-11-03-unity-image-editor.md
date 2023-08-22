@@ -17,7 +17,7 @@ I was recently accepted into the Florida Interactive Entertainment Academy for t
         </div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Editor_UI.png" title="The Editor UI" class="img-fluid rounded z-depth-1" zoomable=true %}
+        {% include figure.html path="assets/img/Editor_UI.jpg" title="The Editor UI" class="img-fluid rounded z-depth-1" zoomable=true %}
         <div class="caption">
         The Editor UI
         </div>
@@ -30,35 +30,35 @@ The first step was transforming the images into a suitable format for easy manip
 
 * So I created method that took an image an returned a Texture2D corresponding to it.
 
-{% highlight c# %}
+    {% highlight c# %}
 
-private Texture2D GetTextureFromImage(Image targetImage) {}
+    private Texture2D GetTextureFromImage(Image targetImage) {}
 
-{% endhighlight %}
+    {% endhighlight %}
 
 * Then I created an empty texture with the width and height of the image.
 
-{% highlight c# %}
+    {% highlight c# %}
 
-Rect rect = targetImage.sprite.rect;
-Texture2D texture = new Texture2D((int)rect.width, (int)rect.height);
-        
-{% endhighlight %}
+    Rect rect = targetImage.sprite.rect;
+    Texture2D texture = new Texture2D((int)rect.width, (int)rect.height);
+            
+    {% endhighlight %}
 
 * Finally the pixels on the original image are mirrored on the pixels of the empty texture using the `SetPixels()` method.
 
-{% highlight c# %}
+    {% highlight c# %}
 
-texture.SetPixels(
-    targetImage.sprite.texture.GetPixels(
-        (int)rect.x,
-        (int)rect.y,
-        (int)rect.width, 
-        (int)rect.height));
-texture.Apply();
-return texture;
-        
-{% endhighlight %}
+    texture.SetPixels(
+        targetImage.sprite.texture.GetPixels(
+            (int)rect.x,
+            (int)rect.y,
+            (int)rect.width, 
+            (int)rect.height));
+    texture.Apply();
+    return texture;
+            
+    {% endhighlight %}
 
 ## **2.0 Image Editing Algorithms: Approach**
 
