@@ -163,7 +163,7 @@ Next in the list are algorithms that helps blur an image using a Gaussian Functi
 * First we create a gaussian kernel of a given size and radius. The gaussian kernel is a float 2D matrix (`float[,]`). Each element in the matrix is a weight that determines the contribution of each pixel to the blurring process. These weights are caluclated based on the Gaussian distribution formula.
 
 <p align="center">
-  <img src="https://latex.codecogs.com/svg.image?f(x)&space;=&space;\frac{1}{\sigma\sqrt{2\pi}}&space;e^{-\frac{(x-\mu)^2}{2\sigma^2}}" style="color:white;" />
+  <img src="https://latex.codecogs.com/svg.image?{\color{White}f(x)&space;=&space;\frac{1}{\sigma\sqrt{2\pi}}&space;e^{-\frac{(x-\mu)^2}{2\sigma^2}}}" style="color:white;" />
 </p>
 
 * **Input Parameters:** The `CreateGaussianKernel()` method takes the `radius` and `size` of the kernel as the parameter and returns a 2D matrix (`float[,]`). The `size` represents the dimensions of the kernel, and the `radius` controls the spread of the blur effect.
