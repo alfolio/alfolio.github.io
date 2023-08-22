@@ -137,11 +137,21 @@ image.sprite = modifiedSprite;
 
 {% endhighlight %}
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/saturationFactor.png" title="Saturation Control" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    Saturation Control
+</div>
+
+
 #### **2.2 Adding Gaussian Blur**
 
 Next in the list are algorithms that helps blur an image using a Gaussian Function. This helps achieve the bokeh effect. It has the effect of reducing an image's high frequency components and thus acting like a low-pass filter. 
 
-1. Creating the Gaussian Kernel
+1. **Creating the Gaussian Kernel**
 
 First we create a gaussian kernel of a given size and radius. The gaussian kernel is a float 2D matrix (`float[,]`). Each element in the matrix is a weight that determines the contribution of each pixel to the blurring process. These weights are caluclated based on the Gaussian distribution formula.
 
@@ -166,7 +176,7 @@ float totalWeight = 0f;
 
 {% endhighlight %}
 
-* **Gaussian and Total Weight Calculation:** The nested loops iterate over each element of the `kernel` array. For each element at position [y, x], it calculates the squared distance from the center of the kernel. The formula *x * x + y * y* calculates the squared Euclidean distance. Using the squared distance, it calculates the weight using the formula *Mathf.Exp(-distance / twoSigmaSquare)*. This weight is a measure of how much influence a pixel at that distance should have on the blurring process. The greater the distance, the smaller the weight. The calculated weight is assigned to the corresponding position in the kernel array.
+* **Gaussian and Total Weight Calculation:** The nested loops iterate over each element of the `kernel` array. For each element at position [y, x], it calculates the squared distance from the center of the kernel. The formula *x * x + y * y* calculates the squared Euclidean distance. Using the squared distance, it calculates the weight using the formula *Mathf.Exp(-distance / twoSigmaSquare)*. This weight is a measure of how much influence a pixel at that distance should have on the blurring process. The greater the distance, the smaller the weight. The calculated weight is assigned to the corresponding position in the kernel array. The `totalWeight` variable keeps track of the sum of all the weights in the kernel. This sum is used to normalize the kernel later.
 
 {% highlight c# %}
 
@@ -204,3 +214,136 @@ for (int y = 0; y < size; y++)
 return kernel;
 
 {% endhighlight %}
+
+2. **Applying the Gaussian Kernel**
+
+The gaussian kernel created above is applied to the pixels of the image thereby convulating the kernel with the particular pixel and its neighbouring pixels, thus calculating the weighted sum of their colors. This sum becomes the new color value for the central pixel, resulting in the blurring effect.
+
+* **Input Parameters:** The `ApplyKernel()` method takes a Texture2D as input along with a `kernel`, `x`, `y` (position within the image) and `size` of the kernel as the parameter. It then calculates and returns the weighted average of colors in the neighborhood around the (x, y) position using the provided Gaussian kernel.
+
+{% highlight c# %}
+
+private Color ApplyKernel(Texture2D texture, int x, int y, float[,] kernel, int size) {}
+
+{% endhighlight %}
+
+* **Initialization:** The 3 float variables for the RGB values are initalized to accumulate the weighted sum of red, green, and blue color channels. The half-size of the kernel is calculated as well and this is used to determine the bounds of the neighborhood around the (x, y) position.
+
+{% highlight c# %}
+
+float r = 0f, g = 0f, b = 0f;
+int halfSize = size / 2;
+
+{% endhighlight %}
+
+* **Looping through the Kernel:** Nested for loops iterate over each cell in kernel. The outer `j` loop iterates over the rows of the kernel whereas the inner `i` loop iterates over its columns. 
+
+{% highlight c# %}
+
+for (int j = 0; j < size; j++)
+{
+    for (int i = 0; i < size; i++)
+    {
+        
+    }
+}
+
+{% endhighlight %}
+
+* **Calculating pixel coordinates of Input Image:** `offsetX` and `offsetY` is calculated inside the loop to represent the corresponding pixel coordinates in the input image based on the current `x` and `y` position within the image and the `i` and `j` indices. Both these values are clamped to the bounds of the image.
+
+{% highlight c# %}
+
+int offsetX = x + i - halfSize;
+int offsetY = y + j - halfSize;
+
+offsetX = Mathf.Clamp(offsetX, 0, texture.width - 1);
+offsetY = Mathf.Clamp(offsetY, 0, texture.height - 1);
+
+{% endhighlight %}
+
+* **Retrieving and Updating the color values of pixels:** The color values of pixels at calculated coordinates `offsetX` and `offsetY` are retrieved from the input texture. The RGB values intialized earlier are updated by adding the color values retrieved multiplied by the weight value from the Gaussian Kernel matrix from the `i` and `j` position. The final color obtained is returned.
+
+{% highlight c# %}
+
+Color pixel = texture.GetPixel(offsetX, offsetY);
+float weight = kernel[j, i];
+
+r += pixel.r * weight;
+g += pixel.g * weight;
+b += pixel.b * weight;
+
+{% endhighlight %}
+
+3. **Applying the Gaussian Blur** 
+Now we apply the gaussian blur to the image by calculating the kernel, processing the pixel and updating the image. 
+
+* **Input Parameters:** The `ApplyGaussianBlur()` method takes a Texture2D as input along with the `radius` of the Gaussian Blur needed (basically used as the size of the kernel) and returns the blurred texture.
+
+{% highlight c# %}
+
+private Texture2D ApplyGaussianBlur(Texture2D sourceTexture, float radius) {}
+
+{% endhighlight %}
+
+* **Calculating Kernel size and Kernel:** The Kernel size is obtained by rounding the `radius` to the nearest integer, doubling it and then adding 1 to it, ensuring coverage of sufficient area around each pixel.
+
+{% highlight c# %}
+
+int kernelSize = Mathf.RoundToInt(radius) * 2 + 1;
+float[,] kernel = CreateGaussianKernel(kernelSize, radius);
+
+{% endhighlight %}
+
+* **Creating Blurred Texture:** A new `blurredTexture` with same dimensions as `sourceTexture` is initialized.
+
+{% highlight c# %}
+
+Color[] pixels = sourceTexture.GetPixels();
+Color[] blurredPixels = new Color[pixels.Length];
+
+{% endhighlight %}
+
+* **Iterating through pixels:** A nested loop is used to access the pixels of the `sourceTexture`. For each pixel at (`x`, `y`), the `ApplyKernel()` function is called to calculate the new color of that pixel. The calculated blurrer color is stored in the corresponding position of the `blurredPixels` array.
+
+{% highlight c# %}
+
+for (int y = 0; y < sourceTexture.height; y++)
+{
+    for (int x = 0; x < sourceTexture.width; x++)
+    {
+        Color blurredColor = ApplyKernel(sourceTexture, x, y, kernel, kernelSize);
+        blurredPixels[y * sourceTexture.width + x] = blurredColor;
+    }
+}
+
+{% endhighlight %}
+
+* **Applying Blurred pixels to the Texture:** After processing all the pixels, the `blurredPixels` array is assigned to the `blurredTexture` and it is returned.
+
+{% highlight c# %}
+
+blurredTexture.SetPixels(blurredPixels);
+blurredTexture.Apply();
+
+return blurredTexture;
+
+{% endhighlight %}
+
+* **Blurred Sprite:** A sprite is created from the blurred texture and is applied to the image.
+
+{% highlight c# %}
+
+Sprite blurredSprite = Sprite.Create(blurredTexture, new Rect(0, 0, blurredTexture.width, blurredTexture.height), new Vector2(0.5f, 0.5f));
+image.sprite = blurredSprite;
+
+{% endhighlight %}
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/blurRadius.png" title="Gaussian Blur Control" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+    Gaussian Blur Control
+</div>
