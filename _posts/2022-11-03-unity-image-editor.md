@@ -30,24 +30,24 @@ The first step was transforming the images into a suitable format for easy manip
 
 * So I created method that took an image an returned a Texture2D corresponding to it.
 
-        {% highlight c# %}
+```
 
         private Texture2D GetTextureFromImage(Image targetImage) {}
 
-        {% endhighlight %}
+```
 
 * Then I created an empty texture with the width and height of the image.
 
-        {% highlight c# %}
+```
 
         Rect rect = targetImage.sprite.rect;
         Texture2D texture = new Texture2D((int)rect.width, (int)rect.height);
                 
-        {% endhighlight %}
+```
 
 * Finally the pixels on the original image are mirrored on the pixels of the empty texture using the `SetPixels()` method.
 
-        {% highlight c# %}
+```
 
         texture.SetPixels(
             targetImage.sprite.texture.GetPixels(
@@ -58,7 +58,7 @@ The first step was transforming the images into a suitable format for easy manip
         texture.Apply();
         return texture;
                 
-        {% endhighlight %}
+```
 
 ## **2.0 Image Editing Algorithms: Approach**
 
@@ -135,7 +135,8 @@ modifiedTexture.SetPixels(modifiedPixels);
 modifiedTexture.Apply();
 
 Sprite modifiedSprite = Sprite.Create(modifiedTexture,
-                                      new Rect(0, 0, modifiedTexture.width, modifiedTexture.height),
+                                      new Rect(0, 0,
+                                      modifiedTexture.width, modifiedTexture.height),
                                       new Vector2(0.5f, 0.5f));
 image.sprite = modifiedSprite;
 
