@@ -62,7 +62,7 @@ The first step was transforming the images into a suitable format for easy manip
 
 ## **2.0 Image Editing Algorithms: Approach**
 
-I chose to work on a series of image editing techniques. My plan was to apply these algorithms with different settings, essentially creating pre-defined configurations for editing images. **Most of these algorithms shall serve the sole purpose of giving the image a low-quality-meme look".
+I chose to work on a series of image editing techniques. My plan was to apply these algorithms with different settings, essentially creating pre-defined configurations for editing images. **Most of these algorithms shall serve the sole purpose of giving the image a low-quality-meme look".**
 
 #### **2.1 Saturation Control**
 
@@ -71,6 +71,8 @@ The first control I wished to establish was for Saturation i.e the intensity of 
 * A saturation value of 0 makes the image grayscale.
 * A value of 1 keeps the original colors unchanged.
 * Anything above 1 makes the image more vibrant.
+
+<br>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -132,10 +134,14 @@ for (int i = 0; i < totalPixels; i++)
 modifiedTexture.SetPixels(modifiedPixels);
 modifiedTexture.Apply();
 
-Sprite modifiedSprite = Sprite.Create(modifiedTexture, new Rect(0, 0, modifiedTexture.width, modifiedTexture.height), new Vector2(0.5f, 0.5f));
+Sprite modifiedSprite = Sprite.Create(modifiedTexture,
+                                      new Rect(0, 0, modifiedTexture.width, modifiedTexture.height),
+                                      new Vector2(0.5f, 0.5f));
 image.sprite = modifiedSprite;
 
 {% endhighlight %}
+
+<br>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -153,10 +159,10 @@ Next in the list are algorithms that helps blur an image using a Gaussian Functi
 
 1. **Creating the Gaussian Kernel**
 
-First we create a gaussian kernel of a given size and radius. The gaussian kernel is a float 2D matrix (`float[,]`). Each element in the matrix is a weight that determines the contribution of each pixel to the blurring process. These weights are caluclated based on the Gaussian distribution formula.
+* First we create a gaussian kernel of a given size and radius. The gaussian kernel is a float 2D matrix (`float[,]`). Each element in the matrix is a weight that determines the contribution of each pixel to the blurring process. These weights are caluclated based on the Gaussian distribution formula.
 
 <p align="center">
-  <img src="https://latex.codecogs.com/svg.image?f(x)&space;=&space;\frac{1}{\sigma\sqrt{2\pi}}&space;e^{-\frac{(x-\mu)^2}{2\sigma^2}}" style="background-color:white;" />
+  <img src="https://latex.codecogs.com/svg.image?f(x)&space;=&space;\frac{1}{\sigma\sqrt{2\pi}}&space;e^{-\frac{(x-\mu)^2}{2\sigma^2}}" style="color:white;" />
 </p>
 
 * **Input Parameters:** The `CreateGaussianKernel()` method takes the `radius` and `size` of the kernel as the parameter and returns a 2D matrix (`float[,]`). The `size` represents the dimensions of the kernel, and the `radius` controls the spread of the blur effect.
@@ -336,7 +342,9 @@ return blurredTexture;
 
 {% highlight c# %}
 
-Sprite blurredSprite = Sprite.Create(blurredTexture, new Rect(0, 0, blurredTexture.width, blurredTexture.height), new Vector2(0.5f, 0.5f));
+Sprite blurredSprite = Sprite.Create(blurredTexture,
+                                    new Rect(0, 0, blurredTexture.width, blurredTexture.height),
+                                    new Vector2(0.5f, 0.5f));
 image.sprite = blurredSprite;
 
 {% endhighlight %}
