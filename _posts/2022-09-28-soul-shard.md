@@ -377,7 +377,7 @@ The team pinpointed that the current footprint lacked originality as snow footpr
     Footprint Normals
 </div>
 
-#### 3.8 Footprint Material - Final iteration
+#### 3.7 Footprint Material - Final iteration
 The footprint material was modified to support normal information and the normal map textures generated were assigned.
 
 <div class="row">

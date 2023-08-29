@@ -358,3 +358,5 @@ image.sprite = blurredSprite;
 <div class="caption">
     Gaussian Blur Control
 </div>
+
+#### **3.0 Image Compressor**
