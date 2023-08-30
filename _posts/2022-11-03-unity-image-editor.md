@@ -32,7 +32,7 @@ The first step was transforming the images into a suitable format for easy manip
 
 {% highlight c# %}
 
-        private Texture2D GetTextureFromImage(Image targetImage) {}
+private Texture2D GetTextureFromImage(Image targetImage) {}
 
 {% endhighlight %}
 
@@ -40,8 +40,8 @@ The first step was transforming the images into a suitable format for easy manip
 
 {% highlight c# %}
 
-        Rect rect = targetImage.sprite.rect;
-        Texture2D texture = new Texture2D((int)rect.width, (int)rect.height);
+Rect rect = targetImage.sprite.rect;
+Texture2D texture = new Texture2D((int)rect.width, (int)rect.height);
                 
 {% endhighlight %}
 
@@ -49,14 +49,14 @@ The first step was transforming the images into a suitable format for easy manip
 
 {% highlight c# %}
 
-        texture.SetPixels(
-            targetImage.sprite.texture.GetPixels(
-                (int)rect.x,
-                (int)rect.y,
-                (int)rect.width, 
-                (int)rect.height));
-        texture.Apply();
-        return texture;
+texture.SetPixels(
+        targetImage.sprite.texture.GetPixels(
+            (int)rect.x,
+            (int)rect.y,
+            (int)rect.width, 
+            (int)rect.height));
+    texture.Apply();
+    return texture;
                 
 {% endhighlight %}
 
